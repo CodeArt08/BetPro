@@ -653,3 +653,245 @@
 2026-03-31 13:32:00.573 | INFO     | app.main:startup_event:135 - Orchestrator disabled - manual scraping control enabled
 2026-03-31 13:32:00.574 | INFO     | app.main:startup_event:137 - Application started successfully
 2026-03-31 13:32:32.160 | INFO     | app.main:shutdown_event:142 - Shutting down Bet261 Prediction Engine...
+2026-03-31 13:33:11.432 | INFO     | app.main:startup_event:68 - Starting Bet261 Prediction Engine...
+2026-03-31 13:33:11.442 | INFO     | app.main:startup_event:73 - Database initialized
+2026-03-31 13:33:11.444 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded logistic_regression
+2026-03-31 13:33:11.667 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded random_forest
+2026-03-31 13:33:11.697 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded gradient_boosting
+2026-03-31 13:33:11.841 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded xgboost
+2026-03-31 13:33:11.900 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded lightgbm
+2026-03-31 13:33:11.906 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded mlp
+2026-03-31 13:33:11.912 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded catboost
+2026-03-31 13:33:11.915 | INFO     | app.services.ml_ensemble:load_models:440 - All models loaded successfully
+2026-03-31 13:33:11.915 | INFO     | app.services.continuous_learning:load_models:156 - Loaded saved ML models
+2026-03-31 13:33:11.915 | INFO     | app.main:startup_event:82 - ML models loaded
+2026-03-31 13:33:11.916 | INFO     | app.services.bankroll_v2:_load_state:119 - Bankroll loaded: 100000 Ar, Season: None
+2026-03-31 13:33:11.918 | WARNING  | app.services.lstm_model:_build_model:58 - TensorFlow non disponible. Le LSTM tournera en mode Heuristique (Fallback numpy).
+2026-03-31 13:33:11.919 | INFO     | app.services.match_analyzer:__init__:36 - MatchAnalyzer initialized with learner weights: V=1.00, N=1.00, D=1.00
+2026-03-31 13:33:11.920 | INFO     | app.services.realtime_engine:_load_optimization_config:1415 - Configuration optimisée chargée depuis 9000+ matchs
+2026-03-31 13:33:11.920 | INFO     | app.services.aggressive_learner:load_learning_state:344 - État d'apprentissage chargé: outcome_weights={'V': 1.0, 'N': 0.9, 'D': 0.9}
+2026-03-31 13:33:11.920 | INFO     | app.services.realtime_engine:__init__:99 - Aggressive learner chargé: {'outcome_weights': {'V': 1.0, 'N': 0.9, 'D': 0.9}, 'model_weights': {'engine': 0.25, 'ml': 0.45, 'odds': 0.22, 'h2h': 0.08}, 'context_corrections_count': 2}
+2026-03-31 13:33:11.939 | INFO     | app.services.realtime_engine:_load_persisted_state:1541 - Loaded cache state with 43 items
+2026-03-31 13:33:11.940 | INFO     | app.services.rl_agent:load:185 - RL agent loaded: 0 states
+2026-03-31 13:33:11.940 | INFO     | app.services.error_autopsy:load:437 - Error autopsy system loaded
+2026-03-31 13:33:11.941 | INFO     | app.services.bankroll_v2:load:533 - Bankroll loaded: 100000 Ar
+2026-03-31 13:33:11.941 | INFO     | app.services.realtime_engine:_load_persisted_state:1571 - Engine state loaded
+2026-03-31 13:33:11.942 | INFO     | app.services.realtime_engine:_ensure_cache_initialized:191 - Cache initialized with 43 items - READY
+2026-03-31 13:33:11.954 | INFO     | app.services.realtime_engine:_save_cache_to_disk:209 - Saved cache state to disk: 43 items
+2026-03-31 13:33:11.954 | INFO     | app.services.realtime_engine:__init__:123 - RealTimeEngine initialized - cache ready
+2026-03-31 13:33:11.955 | INFO     | app.services.realtime_engine:start:131 - RealTimeEngine starting background threads...
+2026-03-31 13:33:11.955 | INFO     | app.main:startup_event:93 - Real-Time Engine started
+2026-03-31 13:33:12.362 | INFO     | app.services.realtime_engine:load_historical_results:1402 - Loaded 14890 historical results into engine
+2026-03-31 13:33:12.363 | INFO     | app.main:startup_event:126 - Loaded 14890 historical results into RT engine
+2026-03-31 13:33:12.368 | INFO     | app.main:startup_event:135 - Orchestrator disabled - manual scraping control enabled
+2026-03-31 13:33:12.369 | INFO     | app.main:startup_event:137 - Application started successfully
+2026-03-31 13:33:12.863 | INFO     | app.core.socket_manager:connect:26 - Client connected: TQS4biTUGviiyz3iAAAB
+2026-03-31 13:33:12.878 | INFO     | app.core.socket_manager:connect:26 - Client connected: EZPXnBlshZvmDZJ4AAAD
+2026-03-31 13:33:12.901 | INFO     | app.core.socket_manager:connect:26 - Client connected: bUfrgX0VZ-4jml8GAAAF
+2026-03-31 13:33:12.921 | INFO     | app.core.socket_manager:connect:26 - Client connected: Q_2KoLpCyZvc73BhAAAH
+2026-03-31 13:33:12.951 | INFO     | app.core.socket_manager:connect:26 - Client connected: oHNRv02DhOxXY-2SAAAJ
+2026-03-31 13:33:12.970 | INFO     | app.core.socket_manager:connect:26 - Client connected: 0ulc4YN4gHHg5IW9AAAL
+2026-03-31 13:33:12.987 | INFO     | app.core.socket_manager:connect:26 - Client connected: cOWMyoQduxiuP_qXAAAN
+2026-03-31 13:33:13.004 | INFO     | app.core.socket_manager:connect:26 - Client connected: -G2K_cRJ_Cmt-iTqAAAP
+2026-03-31 13:33:13.154 | INFO     | app.core.socket_manager:connect:26 - Client connected: C8IPBiJLYKWLONBbAAAR
+2026-03-31 13:33:14.946 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: oHNRv02DhOxXY-2SAAAJ
+2026-03-31 13:33:14.950 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: -G2K_cRJ_Cmt-iTqAAAP
+2026-03-31 13:33:14.951 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: cOWMyoQduxiuP_qXAAAN
+2026-03-31 13:33:14.952 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: 0ulc4YN4gHHg5IW9AAAL
+2026-03-31 13:33:14.953 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: TQS4biTUGviiyz3iAAAB
+2026-03-31 13:33:14.953 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: C8IPBiJLYKWLONBbAAAR
+2026-03-31 13:33:14.955 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: bUfrgX0VZ-4jml8GAAAF
+2026-03-31 13:33:14.955 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: EZPXnBlshZvmDZJ4AAAD
+2026-03-31 13:33:14.956 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: Q_2KoLpCyZvc73BhAAAH
+2026-03-31 13:33:23.971 | INFO     | app.services.elite_selector:_load_state:76 - Elite state loaded: 0 predictions used
+2026-03-31 13:33:23.971 | INFO     | app.services.elite_selector:__init__:62 - EliteSelector initialized: 0/20 slots used for season 114
+2026-03-31 13:33:32.574 | INFO     | app.core.socket_manager:connect:26 - Client connected: cKc0bA99xK-mwCc8AAAT
+2026-03-31 13:33:32.615 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: cKc0bA99xK-mwCc8AAAT
+2026-03-31 13:33:32.655 | INFO     | app.core.socket_manager:connect:26 - Client connected: p2ZM-gpAXyDO50vhAAAW
+2026-03-31 13:33:32.699 | INFO     | app.core.socket_manager:connect:26 - Client connected: qG2RI3w9xyrxCgp5AAAY
+2026-03-31 13:33:32.707 | INFO     | app.core.socket_manager:connect:26 - Client connected: guWqvlrghEGeGkGZAAAa
+2026-03-31 13:33:32.718 | INFO     | app.core.socket_manager:connect:26 - Client connected: EK1QGdMf1NkpD-J-AAAc
+2026-03-31 13:33:32.733 | INFO     | app.core.socket_manager:connect:26 - Client connected: j2deRV4rpCrDJ08dAAAe
+2026-03-31 13:33:32.749 | INFO     | app.core.socket_manager:connect:26 - Client connected: wy-D_lk309olNy-xAAAg
+2026-03-31 13:33:32.990 | INFO     | app.core.socket_manager:connect:26 - Client connected: HaJ727KRhx2nnWzLAAAi
+2026-03-31 13:33:33.016 | INFO     | app.core.socket_manager:connect:26 - Client connected: nNTsPQtCyvQE2JseAAAk
+2026-03-31 13:33:33.032 | INFO     | app.core.socket_manager:connect:26 - Client connected: cfd77QKGFVGt4TT4AAAm
+2026-03-31 13:33:33.048 | INFO     | app.core.socket_manager:connect:26 - Client connected: o3FA8HJu89hxd475AAAo
+2026-03-31 13:33:49.291 | INFO     | app.services.realtime_engine:_ensure_cache_initialized:191 - Cache initialized with 43 items - READY
+2026-03-31 13:33:49.297 | INFO     | app.services.realtime_engine:_save_cache_to_disk:209 - Saved cache state to disk: 43 items
+2026-03-31 13:33:49.314 | INFO     | app.services.realtime_engine:_ensure_cache_initialized:191 - Cache initialized with 43 items - READY
+2026-03-31 13:33:49.321 | INFO     | app.services.realtime_engine:_save_cache_to_disk:209 - Saved cache state to disk: 43 items
+2026-03-31 13:34:14.334 | WARNING  | app.services.season_manager:_update_season_statistics:162 - Season 114 has no bets or verified selected predictions - stats set to 0
+2026-03-31 13:34:14.495 | INFO     | app.services.season_manager:close_season:81 - Closed season 114
+2026-03-31 13:34:14.578 | INFO     | app.services.season_manager:_create_new_season:53 - Created new season: 115
+2026-03-31 13:34:14.674 | INFO     | app.services.elite_selector:ensure_season:114 - Season changed: 114 -> 115
+2026-03-31 13:34:14.674 | INFO     | app.services.elite_selector:reset_for_season:106 - Elite selector reset for new season 115
+2026-03-31 13:34:14.715 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: p2ZM-gpAXyDO50vhAAAW
+2026-03-31 13:34:14.716 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: guWqvlrghEGeGkGZAAAa
+2026-03-31 13:34:14.716 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: qG2RI3w9xyrxCgp5AAAY
+2026-03-31 13:34:14.717 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: cfd77QKGFVGt4TT4AAAm
+2026-03-31 13:34:14.718 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: j2deRV4rpCrDJ08dAAAe
+2026-03-31 13:34:14.718 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: wy-D_lk309olNy-xAAAg
+2026-03-31 13:34:14.718 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: EK1QGdMf1NkpD-J-AAAc
+2026-03-31 13:34:14.719 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: nNTsPQtCyvQE2JseAAAk
+2026-03-31 13:34:14.719 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: o3FA8HJu89hxd475AAAo
+2026-03-31 13:34:14.719 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: HaJ727KRhx2nnWzLAAAi
+2026-03-31 13:34:15.066 | INFO     | app.core.socket_manager:connect:26 - Client connected: 1nbzpqiFw0CBr6JYAAAq
+2026-03-31 13:34:15.083 | INFO     | app.core.socket_manager:connect:26 - Client connected: 15y9CSnaskEZDj26AAAs
+2026-03-31 13:34:15.107 | INFO     | app.core.socket_manager:connect:26 - Client connected: S6bXPrGvkyvgO4ZEAAAu
+2026-03-31 13:34:15.137 | INFO     | app.core.socket_manager:connect:26 - Client connected: Jb0j-96irJyW8hJGAAAw
+2026-03-31 13:34:15.169 | INFO     | app.core.socket_manager:connect:26 - Client connected: lRLIYAY_wHrYYF5zAAAy
+2026-03-31 13:34:15.202 | INFO     | app.core.socket_manager:connect:26 - Client connected: Qg5uHeQv_rddxx9pAAA0
+2026-03-31 13:34:15.234 | INFO     | app.core.socket_manager:connect:26 - Client connected: oD401BvywnynjBrAAAA2
+2026-03-31 13:34:15.266 | INFO     | app.core.socket_manager:connect:26 - Client connected: zcjwrp2A_ds5RQnNAAA4
+2026-03-31 13:34:15.298 | INFO     | app.core.socket_manager:connect:26 - Client connected: G6VC5phOQymv8sB-AAA6
+2026-03-31 13:34:15.317 | INFO     | app.core.socket_manager:connect:26 - Client connected: 0HxiyYrZqyCZ-5gLAAA8
+2026-03-31 13:34:42.506 | INFO     | app.api.scrape:_scrape_results_sync:322 - Results page loaded - user can click 'Afficher plus' manually
+2026-03-31 13:34:42.507 | INFO     | app.api.scrape:_scrape_results_sync:327 - Scraping results from current page state...
+2026-03-31 13:34:42.592 | INFO     | app.api.scrape:_scrape_results_sync:333 - Results page: 0 lines
+2026-03-31 13:34:42.592 | INFO     | app.api.scrape:_scrape_results_sync:437 - Extraction complete. Browser stays open for verification.
+2026-03-31 13:34:42.592 | INFO     | app.api.scrape:scrape_results:462 - Processing results from matchdays: []
+2026-03-31 13:34:42.593 | INFO     | app.api.scrape:scrape_results:560 - Save summary: 0 new, 0 updated, 0 total
+2026-03-31 14:49:02.721 | INFO     | app.main:startup_event:68 - Starting Bet261 Prediction Engine...
+2026-03-31 14:49:02.733 | INFO     | app.main:startup_event:73 - Database initialized
+2026-03-31 14:49:02.735 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded logistic_regression
+2026-03-31 14:49:02.900 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded random_forest
+2026-03-31 14:49:02.927 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded gradient_boosting
+2026-03-31 14:49:03.052 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded xgboost
+2026-03-31 14:49:03.109 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded lightgbm
+2026-03-31 14:49:03.116 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded mlp
+2026-03-31 14:49:03.122 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded catboost
+2026-03-31 14:49:03.125 | INFO     | app.services.ml_ensemble:load_models:440 - All models loaded successfully
+2026-03-31 14:49:03.126 | INFO     | app.services.continuous_learning:load_models:156 - Loaded saved ML models
+2026-03-31 14:49:03.126 | INFO     | app.main:startup_event:82 - ML models loaded
+2026-03-31 14:49:03.127 | INFO     | app.services.bankroll_v2:_load_state:119 - Bankroll loaded: 100000 Ar, Season: None
+2026-03-31 14:49:03.129 | WARNING  | app.services.lstm_model:_build_model:58 - TensorFlow non disponible. Le LSTM tournera en mode Heuristique (Fallback numpy).
+2026-03-31 14:49:03.130 | INFO     | app.services.match_analyzer:__init__:36 - MatchAnalyzer initialized with learner weights: V=1.00, N=1.00, D=1.00
+2026-03-31 14:49:03.131 | INFO     | app.services.realtime_engine:_load_optimization_config:1415 - Configuration optimisée chargée depuis 9000+ matchs
+2026-03-31 14:49:03.131 | INFO     | app.services.aggressive_learner:load_learning_state:344 - État d'apprentissage chargé: outcome_weights={'V': 1.0, 'N': 0.9, 'D': 0.9}
+2026-03-31 14:49:03.132 | INFO     | app.services.realtime_engine:__init__:99 - Aggressive learner chargé: {'outcome_weights': {'V': 1.0, 'N': 0.9, 'D': 0.9}, 'model_weights': {'engine': 0.25, 'ml': 0.45, 'odds': 0.22, 'h2h': 0.08}, 'context_corrections_count': 2}
+2026-03-31 14:49:03.153 | INFO     | app.services.realtime_engine:_load_persisted_state:1541 - Loaded cache state with 43 items
+2026-03-31 14:49:03.154 | INFO     | app.services.rl_agent:load:185 - RL agent loaded: 0 states
+2026-03-31 14:49:03.155 | INFO     | app.services.error_autopsy:load:437 - Error autopsy system loaded
+2026-03-31 14:49:03.156 | INFO     | app.services.bankroll_v2:load:533 - Bankroll loaded: 100000 Ar
+2026-03-31 14:49:03.156 | INFO     | app.services.realtime_engine:_load_persisted_state:1571 - Engine state loaded
+2026-03-31 14:49:03.157 | INFO     | app.services.realtime_engine:_ensure_cache_initialized:191 - Cache initialized with 43 items - READY
+2026-03-31 14:49:03.168 | INFO     | app.services.realtime_engine:_save_cache_to_disk:209 - Saved cache state to disk: 43 items
+2026-03-31 14:49:03.169 | INFO     | app.services.realtime_engine:__init__:123 - RealTimeEngine initialized - cache ready
+2026-03-31 14:49:03.169 | INFO     | app.services.realtime_engine:start:131 - RealTimeEngine starting background threads...
+2026-03-31 14:49:03.169 | INFO     | app.main:startup_event:93 - Real-Time Engine started
+2026-03-31 14:49:03.550 | INFO     | app.services.realtime_engine:load_historical_results:1402 - Loaded 14890 historical results into engine
+2026-03-31 14:49:03.551 | INFO     | app.main:startup_event:126 - Loaded 14890 historical results into RT engine
+2026-03-31 14:49:03.559 | INFO     | app.main:startup_event:135 - Orchestrator disabled - manual scraping control enabled
+2026-03-31 14:49:03.559 | INFO     | app.main:startup_event:137 - Application started successfully
+2026-03-31 14:49:03.884 | INFO     | app.core.socket_manager:connect:26 - Client connected: nJp5spscR4HbqTRtAAAB
+2026-03-31 14:49:03.895 | INFO     | app.core.socket_manager:connect:26 - Client connected: 3PZ0gCDvTzEi2npuAAAD
+2026-03-31 14:49:03.917 | INFO     | app.core.socket_manager:connect:26 - Client connected: nddqINBUj7yRE_EmAAAF
+2026-03-31 14:49:03.933 | INFO     | app.core.socket_manager:connect:26 - Client connected: TcaLJDj2lgAQj0gdAAAH
+2026-03-31 14:49:03.949 | INFO     | app.core.socket_manager:connect:26 - Client connected: CwXhDLZw3oiT28WtAAAJ
+2026-03-31 14:49:03.965 | INFO     | app.core.socket_manager:connect:26 - Client connected: V2PD66DZ2Zz2UYWfAAAL
+2026-03-31 14:49:03.980 | INFO     | app.core.socket_manager:connect:26 - Client connected: fuJ-nNFUB2nE0DzzAAAN
+2026-03-31 14:49:04.902 | INFO     | app.services.elite_selector:_load_state:76 - Elite state loaded: 0 predictions used
+2026-03-31 14:49:04.903 | INFO     | app.services.elite_selector:__init__:62 - EliteSelector initialized: 0/20 slots used for season 115
+2026-03-31 14:49:07.486 | INFO     | app.core.socket_manager:connect:26 - Client connected: RKSnCQ6n4dV3kBuhAAAP
+2026-03-31 14:49:07.785 | INFO     | app.core.socket_manager:connect:26 - Client connected: rqIH2MpjesnJoYXCAAAR
+2026-03-31 14:49:08.797 | INFO     | app.core.socket_manager:connect:26 - Client connected: RyKK3XAwgNQEgVRbAAAT
+2026-03-31 14:49:09.091 | INFO     | app.core.socket_manager:connect:26 - Client connected: AvaXa4mv2Gz8LiwfAAAV
+2026-03-31 14:49:09.204 | INFO     | app.core.socket_manager:connect:26 - Client connected: guF-LB8YylRfvHSeAAAX
+2026-03-31 14:49:14.820 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: nJp5spscR4HbqTRtAAAB
+2026-03-31 14:49:14.825 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: 3PZ0gCDvTzEi2npuAAAD
+2026-03-31 14:49:14.827 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: nddqINBUj7yRE_EmAAAF
+2026-03-31 14:49:14.829 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: V2PD66DZ2Zz2UYWfAAAL
+2026-03-31 14:49:14.829 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: TcaLJDj2lgAQj0gdAAAH
+2026-03-31 14:49:14.830 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: CwXhDLZw3oiT28WtAAAJ
+2026-03-31 14:49:14.831 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: fuJ-nNFUB2nE0DzzAAAN
+2026-03-31 14:49:14.832 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: rqIH2MpjesnJoYXCAAAR
+2026-03-31 14:49:14.832 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: RKSnCQ6n4dV3kBuhAAAP
+2026-03-31 14:49:14.833 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: AvaXa4mv2Gz8LiwfAAAV
+2026-03-31 14:49:14.834 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: RyKK3XAwgNQEgVRbAAAT
+2026-03-31 14:49:14.834 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: guF-LB8YylRfvHSeAAAX
+2026-03-31 14:49:16.668 | INFO     | app.core.socket_manager:connect:26 - Client connected: xadqIyykGqvD1IP8AAAZ
+2026-03-31 14:49:16.681 | INFO     | app.core.socket_manager:connect:26 - Client connected: TTearyZP8k1AqUDpAAAb
+2026-03-31 14:49:16.697 | INFO     | app.core.socket_manager:connect:26 - Client connected: J7wr0e7zoK95rL_2AAAd
+2026-03-31 14:49:16.713 | INFO     | app.core.socket_manager:connect:26 - Client connected: Gwle25wB5d8RayrEAAAf
+2026-03-31 14:49:16.728 | INFO     | app.core.socket_manager:connect:26 - Client connected: 1H06lAyiZMX1cMAtAAAh
+2026-03-31 14:49:16.744 | INFO     | app.core.socket_manager:connect:26 - Client connected: 0RXg09AdapcJwOm3AAAj
+2026-03-31 14:49:16.760 | INFO     | app.core.socket_manager:connect:26 - Client connected: J9ZT2LO_CwCcB6PQAAAl
+2026-03-31 14:49:16.806 | INFO     | app.core.socket_manager:connect:26 - Client connected: g2d_QrDUE2uyoqdUAAAn
+2026-03-31 14:49:16.930 | INFO     | app.core.socket_manager:connect:26 - Client connected: D31ryv1xRAr6emhsAAAp
+2026-03-31 14:49:17.011 | INFO     | app.core.socket_manager:connect:26 - Client connected: UVO4izm0aNCkhNY8AAAr
+2026-03-31 14:49:44.964 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: xadqIyykGqvD1IP8AAAZ
+2026-03-31 14:49:44.966 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: TTearyZP8k1AqUDpAAAb
+2026-03-31 14:49:44.969 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: J7wr0e7zoK95rL_2AAAd
+2026-03-31 14:49:44.970 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: 1H06lAyiZMX1cMAtAAAh
+2026-03-31 14:49:44.971 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: Gwle25wB5d8RayrEAAAf
+2026-03-31 14:49:44.972 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: 0RXg09AdapcJwOm3AAAj
+2026-03-31 14:49:44.973 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: J9ZT2LO_CwCcB6PQAAAl
+2026-03-31 14:49:44.974 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: g2d_QrDUE2uyoqdUAAAn
+2026-03-31 14:49:44.975 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: D31ryv1xRAr6emhsAAAp
+2026-03-31 14:49:44.976 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: UVO4izm0aNCkhNY8AAAr
+2026-03-31 14:49:45.364 | INFO     | app.core.socket_manager:connect:26 - Client connected: WyBFvq7f8DRJ-TiVAAAt
+2026-03-31 14:49:45.385 | INFO     | app.core.socket_manager:connect:26 - Client connected: Jf-EWnyZ-0vk0oA3AAAv
+2026-03-31 14:49:45.400 | INFO     | app.core.socket_manager:connect:26 - Client connected: KqY86TDkxK71PxrUAAAx
+2026-03-31 14:49:45.418 | INFO     | app.core.socket_manager:connect:26 - Client connected: FdfyyxGTZCRXLbMnAAAz
+2026-03-31 14:49:45.432 | INFO     | app.core.socket_manager:connect:26 - Client connected: SRBF_M6SBBnrXQESAAA1
+2026-03-31 14:49:45.447 | INFO     | app.core.socket_manager:connect:26 - Client connected: Ut4nMeFfb2Xv83o0AAA3
+2026-03-31 14:49:45.462 | INFO     | app.core.socket_manager:connect:26 - Client connected: Grpzl2ZHH0s0hypFAAA5
+2026-03-31 14:49:45.477 | INFO     | app.core.socket_manager:connect:26 - Client connected: smdeAgX0b6rsh4H6AAA7
+2026-03-31 14:49:45.495 | INFO     | app.core.socket_manager:connect:26 - Client connected: TlUZ0RyDx-HtvJPSAAA9
+2026-03-31 14:49:45.577 | INFO     | app.core.socket_manager:connect:26 - Client connected: bf1rSWtmkCglFqATAAA_
+2026-03-31 14:55:01.124 | INFO     | app.main:startup_event:68 - Starting Bet261 Prediction Engine...
+2026-03-31 14:55:01.133 | INFO     | app.main:startup_event:73 - Database initialized
+2026-03-31 14:55:01.135 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded logistic_regression
+2026-03-31 14:55:01.369 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded random_forest
+2026-03-31 14:55:01.403 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded gradient_boosting
+2026-03-31 14:55:01.610 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded xgboost
+2026-03-31 14:55:01.687 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded lightgbm
+2026-03-31 14:55:01.693 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded mlp
+2026-03-31 14:55:01.699 | INFO     | app.services.ml_ensemble:load_models:422 - Loaded catboost
+2026-03-31 14:55:01.702 | INFO     | app.services.ml_ensemble:load_models:440 - All models loaded successfully
+2026-03-31 14:55:01.702 | INFO     | app.services.continuous_learning:load_models:156 - Loaded saved ML models
+2026-03-31 14:55:01.705 | INFO     | app.main:startup_event:82 - ML models loaded
+2026-03-31 14:55:01.706 | INFO     | app.services.bankroll_v2:_load_state:119 - Bankroll loaded: 100000 Ar, Season: None
+2026-03-31 14:55:01.708 | WARNING  | app.services.lstm_model:_build_model:58 - TensorFlow non disponible. Le LSTM tournera en mode Heuristique (Fallback numpy).
+2026-03-31 14:55:01.709 | INFO     | app.services.match_analyzer:__init__:36 - MatchAnalyzer initialized with learner weights: V=1.00, N=1.00, D=1.00
+2026-03-31 14:55:01.710 | INFO     | app.services.realtime_engine:_load_optimization_config:1415 - Configuration optimisée chargée depuis 9000+ matchs
+2026-03-31 14:55:01.712 | INFO     | app.services.aggressive_learner:load_learning_state:344 - État d'apprentissage chargé: outcome_weights={'V': 1.0, 'N': 0.9, 'D': 0.9}
+2026-03-31 14:55:01.713 | INFO     | app.services.realtime_engine:__init__:99 - Aggressive learner chargé: {'outcome_weights': {'V': 1.0, 'N': 0.9, 'D': 0.9}, 'model_weights': {'engine': 0.25, 'ml': 0.45, 'odds': 0.22, 'h2h': 0.08}, 'context_corrections_count': 2}
+2026-03-31 14:55:01.770 | INFO     | app.services.realtime_engine:_load_persisted_state:1541 - Loaded cache state with 43 items
+2026-03-31 14:55:01.771 | INFO     | app.services.rl_agent:load:185 - RL agent loaded: 0 states
+2026-03-31 14:55:01.772 | INFO     | app.services.error_autopsy:load:437 - Error autopsy system loaded
+2026-03-31 14:55:01.773 | INFO     | app.services.bankroll_v2:load:533 - Bankroll loaded: 100000 Ar
+2026-03-31 14:55:01.774 | INFO     | app.services.realtime_engine:_load_persisted_state:1571 - Engine state loaded
+2026-03-31 14:55:01.774 | INFO     | app.services.realtime_engine:_ensure_cache_initialized:191 - Cache initialized with 43 items - READY
+2026-03-31 14:55:01.784 | INFO     | app.services.realtime_engine:_save_cache_to_disk:209 - Saved cache state to disk: 43 items
+2026-03-31 14:55:01.785 | INFO     | app.services.realtime_engine:__init__:123 - RealTimeEngine initialized - cache ready
+2026-03-31 14:55:01.786 | INFO     | app.services.realtime_engine:start:131 - RealTimeEngine starting background threads...
+2026-03-31 14:55:01.787 | INFO     | app.main:startup_event:93 - Real-Time Engine started
+2026-03-31 14:55:02.248 | INFO     | app.services.realtime_engine:load_historical_results:1402 - Loaded 14890 historical results into engine
+2026-03-31 14:55:02.248 | INFO     | app.main:startup_event:126 - Loaded 14890 historical results into RT engine
+2026-03-31 14:55:02.253 | INFO     | app.main:startup_event:135 - Orchestrator disabled - manual scraping control enabled
+2026-03-31 14:55:02.254 | INFO     | app.main:startup_event:137 - Application started successfully
+2026-03-31 14:55:02.722 | INFO     | app.core.socket_manager:connect:26 - Client connected: aJH-CdjpTuAz67aiAAAB
+2026-03-31 14:55:02.748 | INFO     | app.core.socket_manager:connect:26 - Client connected: nZrK8JRe7Pkv17uwAAAD
+2026-03-31 14:55:02.764 | INFO     | app.core.socket_manager:connect:26 - Client connected: o-9CBwOjBdWwU7i2AAAF
+2026-03-31 14:55:02.778 | INFO     | app.core.socket_manager:connect:26 - Client connected: XZvWPDL_TFOKz5lgAAAH
+2026-03-31 14:55:02.795 | INFO     | app.core.socket_manager:connect:26 - Client connected: 5hx6FsVnXGcZ8fUgAAAJ
+2026-03-31 14:55:02.810 | INFO     | app.core.socket_manager:connect:26 - Client connected: iUHvkP7hc4fi2Cf5AAAL
+2026-03-31 14:55:02.825 | INFO     | app.core.socket_manager:connect:26 - Client connected: xKgqSa2lv9Te8eRyAAAN
+2026-03-31 14:55:04.156 | INFO     | app.core.socket_manager:connect:26 - Client connected: jSL0dcH377pnhU6zAAAP
+2026-03-31 14:55:06.163 | INFO     | app.core.socket_manager:connect:26 - Client connected: AMx06Xtejn1kVApiAAAR
+2026-03-31 14:55:06.933 | INFO     | app.core.socket_manager:connect:26 - Client connected: fU6-trhgwCp5OS13AAAT
+2026-03-31 14:55:07.916 | INFO     | app.services.elite_selector:_load_state:76 - Elite state loaded: 0 predictions used
+2026-03-31 14:55:07.916 | INFO     | app.services.elite_selector:__init__:62 - EliteSelector initialized: 0/20 slots used for season 115
+2026-03-31 14:55:53.072 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: iUHvkP7hc4fi2Cf5AAAL
+2026-03-31 14:55:53.073 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: xKgqSa2lv9Te8eRyAAAN
+2026-03-31 14:55:53.073 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: jSL0dcH377pnhU6zAAAP
+2026-03-31 14:55:53.074 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: nZrK8JRe7Pkv17uwAAAD
+2026-03-31 14:55:53.074 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: 5hx6FsVnXGcZ8fUgAAAJ
+2026-03-31 14:55:53.075 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: AMx06Xtejn1kVApiAAAR
+2026-03-31 14:55:53.076 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: o-9CBwOjBdWwU7i2AAAF
+2026-03-31 14:55:53.076 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: aJH-CdjpTuAz67aiAAAB
+2026-03-31 14:55:53.077 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: fU6-trhgwCp5OS13AAAT
+2026-03-31 14:55:53.078 | INFO     | app.core.socket_manager:disconnect:31 - Client disconnected: XZvWPDL_TFOKz5lgAAAH
+2026-03-31 14:55:53.172 | INFO     | app.main:shutdown_event:142 - Shutting down Bet261 Prediction Engine...
