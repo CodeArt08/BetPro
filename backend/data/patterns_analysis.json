@@ -1,0 +1,355 @@
+{
+  "surprises": {
+    "big_team_draw_count": 356,
+    "big_team_loss_count": 164,
+    "underdog_win_count": 330,
+    "big_team_draw_rate": 0.23086900129701687,
+    "big_team_loss_rate": 0.10635538261997406
+  },
+  "matchday_patterns": {
+    "1": {
+      "total": 312,
+      "home_win_rate": 0.42948717948717946,
+      "draw_rate": 0.3301282051282051,
+      "away_win_rate": 0.2403846153846154
+    },
+    "2": {
+      "total": 330,
+      "home_win_rate": 0.5,
+      "draw_rate": 0.2818181818181818,
+      "away_win_rate": 0.21818181818181817
+    },
+    "3": {
+      "total": 329,
+      "home_win_rate": 0.4194528875379939,
+      "draw_rate": 0.3161094224924012,
+      "away_win_rate": 0.26443768996960487
+    },
+    "4": {
+      "total": 330,
+      "home_win_rate": 0.44242424242424244,
+      "draw_rate": 0.27575757575757576,
+      "away_win_rate": 0.2818181818181818
+    },
+    "5": {
+      "total": 330,
+      "home_win_rate": 0.503030303030303,
+      "draw_rate": 0.2636363636363636,
+      "away_win_rate": 0.23333333333333334
+    },
+    "6": {
+      "total": 319,
+      "home_win_rate": 0.47648902821316613,
+      "draw_rate": 0.27586206896551724,
+      "away_win_rate": 0.2476489028213166
+    },
+    "7": {
+      "total": 300,
+      "home_win_rate": 0.42,
+      "draw_rate": 0.3,
+      "away_win_rate": 0.28
+    },
+    "8": {
+      "total": 300,
+      "home_win_rate": 0.49666666666666665,
+      "draw_rate": 0.33,
+      "away_win_rate": 0.17333333333333334
+    },
+    "9": {
+      "total": 299,
+      "home_win_rate": 0.4682274247491639,
+      "draw_rate": 0.2408026755852843,
+      "away_win_rate": 0.2909698996655518
+    },
+    "10": {
+      "total": 300,
+      "home_win_rate": 0.52,
+      "draw_rate": 0.24,
+      "away_win_rate": 0.24
+    },
+    "11": {
+      "total": 290,
+      "home_win_rate": 0.4896551724137931,
+      "draw_rate": 0.2827586206896552,
+      "away_win_rate": 0.22758620689655173
+    },
+    "12": {
+      "total": 289,
+      "home_win_rate": 0.5017301038062284,
+      "draw_rate": 0.2975778546712803,
+      "away_win_rate": 0.20069204152249134
+    },
+    "13": {
+      "total": 289,
+      "home_win_rate": 0.5190311418685121,
+      "draw_rate": 0.25951557093425603,
+      "away_win_rate": 0.22145328719723184
+    },
+    "14": {
+      "total": 290,
+      "home_win_rate": 0.4517241379310345,
+      "draw_rate": 0.32413793103448274,
+      "away_win_rate": 0.22413793103448276
+    },
+    "15": {
+      "total": 290,
+      "home_win_rate": 0.5482758620689655,
+      "draw_rate": 0.2827586206896552,
+      "away_win_rate": 0.16896551724137931
+    },
+    "16": {
+      "total": 290,
+      "home_win_rate": 0.45517241379310347,
+      "draw_rate": 0.30689655172413793,
+      "away_win_rate": 0.23793103448275862
+    },
+    "17": {
+      "total": 289,
+      "home_win_rate": 0.5051903114186851,
+      "draw_rate": 0.2560553633217993,
+      "away_win_rate": 0.23875432525951557
+    },
+    "18": {
+      "total": 280,
+      "home_win_rate": 0.4142857142857143,
+      "draw_rate": 0.375,
+      "away_win_rate": 0.21071428571428572
+    },
+    "19": {
+      "total": 279,
+      "home_win_rate": 0.5197132616487455,
+      "draw_rate": 0.26523297491039427,
+      "away_win_rate": 0.21505376344086022
+    },
+    "20": {
+      "total": 278,
+      "home_win_rate": 0.49640287769784175,
+      "draw_rate": 0.30935251798561153,
+      "away_win_rate": 0.19424460431654678
+    },
+    "21": {
+      "total": 270,
+      "home_win_rate": 0.4703703703703704,
+      "draw_rate": 0.2777777777777778,
+      "away_win_rate": 0.2518518518518518
+    },
+    "22": {
+      "total": 269,
+      "home_win_rate": 0.4721189591078067,
+      "draw_rate": 0.27137546468401486,
+      "away_win_rate": 0.25650557620817843
+    },
+    "23": {
+      "total": 260,
+      "home_win_rate": 0.47692307692307695,
+      "draw_rate": 0.2692307692307692,
+      "away_win_rate": 0.25384615384615383
+    },
+    "24": {
+      "total": 250,
+      "home_win_rate": 0.484,
+      "draw_rate": 0.276,
+      "away_win_rate": 0.24
+    },
+    "25": {
+      "total": 249,
+      "home_win_rate": 0.5020080321285141,
+      "draw_rate": 0.2570281124497992,
+      "away_win_rate": 0.24096385542168675
+    },
+    "26": {
+      "total": 250,
+      "home_win_rate": 0.5,
+      "draw_rate": 0.312,
+      "away_win_rate": 0.188
+    },
+    "27": {
+      "total": 240,
+      "home_win_rate": 0.45416666666666666,
+      "draw_rate": 0.26666666666666666,
+      "away_win_rate": 0.2791666666666667
+    },
+    "28": {
+      "total": 229,
+      "home_win_rate": 0.43231441048034935,
+      "draw_rate": 0.34497816593886466,
+      "away_win_rate": 0.22270742358078602
+    },
+    "29": {
+      "total": 210,
+      "home_win_rate": 0.48095238095238096,
+      "draw_rate": 0.2904761904761905,
+      "away_win_rate": 0.22857142857142856
+    },
+    "30": {
+      "total": 210,
+      "home_win_rate": 0.4380952380952381,
+      "draw_rate": 0.319047619047619,
+      "away_win_rate": 0.24285714285714285
+    },
+    "31": {
+      "total": 210,
+      "home_win_rate": 0.5285714285714286,
+      "draw_rate": 0.2857142857142857,
+      "away_win_rate": 0.18571428571428572
+    },
+    "32": {
+      "total": 190,
+      "home_win_rate": 0.4368421052631579,
+      "draw_rate": 0.29473684210526313,
+      "away_win_rate": 0.26842105263157895
+    },
+    "33": {
+      "total": 180,
+      "home_win_rate": 0.4666666666666667,
+      "draw_rate": 0.28888888888888886,
+      "away_win_rate": 0.24444444444444444
+    },
+    "34": {
+      "total": 170,
+      "home_win_rate": 0.45294117647058824,
+      "draw_rate": 0.2411764705882353,
+      "away_win_rate": 0.3058823529411765
+    },
+    "35": {
+      "total": 160,
+      "home_win_rate": 0.54375,
+      "draw_rate": 0.2875,
+      "away_win_rate": 0.16875
+    },
+    "36": {
+      "total": 130,
+      "home_win_rate": 0.4846153846153846,
+      "draw_rate": 0.3153846153846154,
+      "away_win_rate": 0.2
+    },
+    "37": {
+      "total": 40,
+      "home_win_rate": 0.525,
+      "draw_rate": 0.35,
+      "away_win_rate": 0.125
+    }
+  },
+  "top_teams": {
+    "R. Madrid": {
+      "total": 478,
+      "wins": 357,
+      "win_rate": 0.7468619246861925,
+      "avg_odd": 1.2975882352941177
+    },
+    "Barca": {
+      "total": 472,
+      "wins": 335,
+      "win_rate": 0.7097457627118644,
+      "avg_odd": 1.360900900900901
+    },
+    "A. Madrid": {
+      "total": 477,
+      "wins": 321,
+      "win_rate": 0.6729559748427673,
+      "avg_odd": 1.5116888888888889
+    },
+    "Girona": {
+      "total": 474,
+      "wins": 292,
+      "win_rate": 0.6160337552742616,
+      "avg_odd": 1.580375
+    },
+    "Bilbao": {
+      "total": 479,
+      "wins": 273,
+      "win_rate": 0.569937369519833,
+      "avg_odd": 1.6963362068965517
+    },
+    "Villareal": {
+      "total": 477,
+      "wins": 247,
+      "win_rate": 0.5178197064989518,
+      "avg_odd": 1.8734309623430963
+    },
+    "Betis": {
+      "total": 477,
+      "wins": 244,
+      "win_rate": 0.5115303983228512,
+      "avg_odd": 2.0025738396624475
+    },
+    "R. Sociedad": {
+      "total": 479,
+      "wins": 234,
+      "win_rate": 0.48851774530271397,
+      "avg_odd": 2.04765690376569
+    },
+    "Sevilla": {
+      "total": 474,
+      "wins": 221,
+      "win_rate": 0.46624472573839665,
+      "avg_odd": 2.562008733624454
+    },
+    "Vigo": {
+      "total": 482,
+      "wins": 221,
+      "win_rate": 0.45850622406639,
+      "avg_odd": 2.4459836065573772
+    },
+    "Alav\u00e9s": {
+      "total": 479,
+      "wins": 211,
+      "win_rate": 0.4405010438413361,
+      "avg_odd": 2.3421399176954734
+    },
+    "Valencia": {
+      "total": 477,
+      "wins": 209,
+      "win_rate": 0.4381551362683438,
+      "avg_odd": 2.126255319148936
+    },
+    "R. Vallecano": {
+      "total": 477,
+      "wins": 189,
+      "win_rate": 0.39622641509433965,
+      "avg_odd": 2.659364406779661
+    },
+    "Elche": {
+      "total": 478,
+      "wins": 188,
+      "win_rate": 0.39330543933054396,
+      "avg_odd": 2.6780425531914895
+    },
+    "Mallorca": {
+      "total": 473,
+      "wins": 186,
+      "win_rate": 0.39323467230443976,
+      "avg_odd": 2.281310043668122
+    },
+    "Osasuna": {
+      "total": 476,
+      "wins": 182,
+      "win_rate": 0.38235294117647056,
+      "avg_odd": 2.753625
+    },
+    "Getafe": {
+      "total": 473,
+      "wins": 174,
+      "win_rate": 0.3678646934460888,
+      "avg_odd": 2.676401673640167
+    },
+    "Levante": {
+      "total": 473,
+      "wins": 170,
+      "win_rate": 0.3594080338266385,
+      "avg_odd": 2.94402489626556
+    },
+    "Espanyol": {
+      "total": 476,
+      "wins": 167,
+      "win_rate": 0.35084033613445376,
+      "avg_odd": 2.9508810572687225
+    },
+    "Real Oviedo": {
+      "total": 477,
+      "wins": 131,
+      "win_rate": 0.2746331236897275,
+      "avg_odd": 4.020340425531915
+    }
+  }
+}

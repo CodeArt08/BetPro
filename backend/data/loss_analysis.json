@@ -1,0 +1,572 @@
+{
+  "total_matches": 12710,
+  "total_predictions": 5936,
+  "correct_predictions": 2697,
+  "success_rate": 0.4543463611859838,
+  "result_distribution": {
+    "D": 2966,
+    "N": 3645,
+    "V": 6099
+  },
+  "prediction_accuracy": {
+    "D": {
+      "total": 1261,
+      "correct": 416,
+      "accuracy": 0.32989690721649484
+    },
+    "N": {
+      "total": 631,
+      "correct": 208,
+      "accuracy": 0.329635499207607
+    },
+    "V": {
+      "total": 4044,
+      "correct": 2073,
+      "accuracy": 0.5126112759643917
+    }
+  },
+  "top_errors": [
+    {
+      "predicted": "V",
+      "actual": "N",
+      "count": 1122
+    },
+    {
+      "predicted": "V",
+      "actual": "D",
+      "count": 849
+    },
+    {
+      "predicted": "D",
+      "actual": "V",
+      "count": 427
+    },
+    {
+      "predicted": "D",
+      "actual": "N",
+      "count": 375
+    },
+    {
+      "predicted": "N",
+      "actual": "V",
+      "count": 280
+    }
+  ],
+  "matchday_stats": [
+    {
+      "matchday": 1,
+      "total": 194,
+      "correct": 82,
+      "accuracy": 0.422680412371134,
+      "v_errors": 69,
+      "n_errors": 17,
+      "d_errors": 26
+    },
+    {
+      "matchday": 2,
+      "total": 193,
+      "correct": 88,
+      "accuracy": 0.45595854922279794,
+      "v_errors": 67,
+      "n_errors": 8,
+      "d_errors": 31
+    },
+    {
+      "matchday": 3,
+      "total": 216,
+      "correct": 93,
+      "accuracy": 0.4305555555555556,
+      "v_errors": 66,
+      "n_errors": 21,
+      "d_errors": 41
+    },
+    {
+      "matchday": 4,
+      "total": 207,
+      "correct": 88,
+      "accuracy": 0.4251207729468599,
+      "v_errors": 71,
+      "n_errors": 14,
+      "d_errors": 36
+    },
+    {
+      "matchday": 5,
+      "total": 188,
+      "correct": 88,
+      "accuracy": 0.46808510638297873,
+      "v_errors": 54,
+      "n_errors": 23,
+      "d_errors": 26
+    },
+    {
+      "matchday": 6,
+      "total": 197,
+      "correct": 92,
+      "accuracy": 0.467005076142132,
+      "v_errors": 57,
+      "n_errors": 25,
+      "d_errors": 23
+    },
+    {
+      "matchday": 7,
+      "total": 205,
+      "correct": 94,
+      "accuracy": 0.4585365853658537,
+      "v_errors": 80,
+      "n_errors": 8,
+      "d_errors": 23
+    },
+    {
+      "matchday": 8,
+      "total": 187,
+      "correct": 84,
+      "accuracy": 0.44919786096256686,
+      "v_errors": 67,
+      "n_errors": 15,
+      "d_errors": 21
+    },
+    {
+      "matchday": 9,
+      "total": 225,
+      "correct": 93,
+      "accuracy": 0.41333333333333333,
+      "v_errors": 88,
+      "n_errors": 14,
+      "d_errors": 30
+    },
+    {
+      "matchday": 10,
+      "total": 203,
+      "correct": 98,
+      "accuracy": 0.4827586206896552,
+      "v_errors": 67,
+      "n_errors": 12,
+      "d_errors": 25
+    },
+    {
+      "matchday": 11,
+      "total": 177,
+      "correct": 81,
+      "accuracy": 0.4576271186440678,
+      "v_errors": 59,
+      "n_errors": 15,
+      "d_errors": 22
+    },
+    {
+      "matchday": 12,
+      "total": 189,
+      "correct": 104,
+      "accuracy": 0.5502645502645502,
+      "v_errors": 43,
+      "n_errors": 12,
+      "d_errors": 30
+    },
+    {
+      "matchday": 13,
+      "total": 177,
+      "correct": 75,
+      "accuracy": 0.423728813559322,
+      "v_errors": 66,
+      "n_errors": 8,
+      "d_errors": 28
+    },
+    {
+      "matchday": 14,
+      "total": 166,
+      "correct": 72,
+      "accuracy": 0.43373493975903615,
+      "v_errors": 71,
+      "n_errors": 9,
+      "d_errors": 14
+    },
+    {
+      "matchday": 15,
+      "total": 159,
+      "correct": 71,
+      "accuracy": 0.44654088050314467,
+      "v_errors": 50,
+      "n_errors": 11,
+      "d_errors": 31
+    },
+    {
+      "matchday": 16,
+      "total": 168,
+      "correct": 76,
+      "accuracy": 0.4523809523809524,
+      "v_errors": 66,
+      "n_errors": 6,
+      "d_errors": 20
+    },
+    {
+      "matchday": 17,
+      "total": 158,
+      "correct": 73,
+      "accuracy": 0.4620253164556962,
+      "v_errors": 41,
+      "n_errors": 9,
+      "d_errors": 35
+    },
+    {
+      "matchday": 18,
+      "total": 158,
+      "correct": 68,
+      "accuracy": 0.43037974683544306,
+      "v_errors": 51,
+      "n_errors": 14,
+      "d_errors": 28
+    },
+    {
+      "matchday": 19,
+      "total": 119,
+      "correct": 60,
+      "accuracy": 0.5042016806722689,
+      "v_errors": 38,
+      "n_errors": 4,
+      "d_errors": 17
+    },
+    {
+      "matchday": 20,
+      "total": 150,
+      "correct": 70,
+      "accuracy": 0.4666666666666667,
+      "v_errors": 49,
+      "n_errors": 4,
+      "d_errors": 24
+    },
+    {
+      "matchday": 21,
+      "total": 169,
+      "correct": 85,
+      "accuracy": 0.5029585798816568,
+      "v_errors": 56,
+      "n_errors": 9,
+      "d_errors": 22
+    },
+    {
+      "matchday": 22,
+      "total": 159,
+      "correct": 76,
+      "accuracy": 0.4779874213836478,
+      "v_errors": 54,
+      "n_errors": 8,
+      "d_errors": 22
+    },
+    {
+      "matchday": 23,
+      "total": 158,
+      "correct": 58,
+      "accuracy": 0.3670886075949367,
+      "v_errors": 57,
+      "n_errors": 21,
+      "d_errors": 22
+    },
+    {
+      "matchday": 24,
+      "total": 141,
+      "correct": 69,
+      "accuracy": 0.48936170212765956,
+      "v_errors": 38,
+      "n_errors": 6,
+      "d_errors": 26
+    },
+    {
+      "matchday": 25,
+      "total": 149,
+      "correct": 71,
+      "accuracy": 0.47651006711409394,
+      "v_errors": 48,
+      "n_errors": 6,
+      "d_errors": 28
+    },
+    {
+      "matchday": 26,
+      "total": 157,
+      "correct": 65,
+      "accuracy": 0.4140127388535032,
+      "v_errors": 50,
+      "n_errors": 13,
+      "d_errors": 30
+    },
+    {
+      "matchday": 27,
+      "total": 138,
+      "correct": 60,
+      "accuracy": 0.43478260869565216,
+      "v_errors": 50,
+      "n_errors": 14,
+      "d_errors": 14
+    },
+    {
+      "matchday": 28,
+      "total": 139,
+      "correct": 58,
+      "accuracy": 0.4172661870503597,
+      "v_errors": 53,
+      "n_errors": 7,
+      "d_errors": 21
+    },
+    {
+      "matchday": 29,
+      "total": 129,
+      "correct": 58,
+      "accuracy": 0.4496124031007752,
+      "v_errors": 55,
+      "n_errors": 3,
+      "d_errors": 13
+    },
+    {
+      "matchday": 30,
+      "total": 128,
+      "correct": 57,
+      "accuracy": 0.4453125,
+      "v_errors": 41,
+      "n_errors": 15,
+      "d_errors": 15
+    },
+    {
+      "matchday": 31,
+      "total": 147,
+      "correct": 65,
+      "accuracy": 0.4421768707482993,
+      "v_errors": 50,
+      "n_errors": 9,
+      "d_errors": 24
+    },
+    {
+      "matchday": 32,
+      "total": 139,
+      "correct": 64,
+      "accuracy": 0.460431654676259,
+      "v_errors": 42,
+      "n_errors": 11,
+      "d_errors": 20
+    },
+    {
+      "matchday": 33,
+      "total": 108,
+      "correct": 47,
+      "accuracy": 0.4351851851851852,
+      "v_errors": 38,
+      "n_errors": 7,
+      "d_errors": 16
+    },
+    {
+      "matchday": 34,
+      "total": 117,
+      "correct": 60,
+      "accuracy": 0.5128205128205128,
+      "v_errors": 30,
+      "n_errors": 14,
+      "d_errors": 13
+    },
+    {
+      "matchday": 35,
+      "total": 119,
+      "correct": 51,
+      "accuracy": 0.42857142857142855,
+      "v_errors": 35,
+      "n_errors": 19,
+      "d_errors": 14
+    },
+    {
+      "matchday": 36,
+      "total": 145,
+      "correct": 68,
+      "accuracy": 0.4689655172413793,
+      "v_errors": 45,
+      "n_errors": 16,
+      "d_errors": 16
+    },
+    {
+      "matchday": 37,
+      "total": 58,
+      "correct": 35,
+      "accuracy": 0.603448275862069,
+      "v_errors": 9,
+      "n_errors": 7,
+      "d_errors": 7
+    }
+  ],
+  "teams": [
+    {
+      "team": "R. Madrid",
+      "total": 637,
+      "wins": 472,
+      "draws": 130,
+      "losses": 35,
+      "win_rate": 0.7409733124018838,
+      "avg_odd": 1.3019650655021833
+    },
+    {
+      "team": "Barca",
+      "total": 632,
+      "wins": 449,
+      "draws": 131,
+      "losses": 52,
+      "win_rate": 0.7104430379746836,
+      "avg_odd": 1.3642857142857143
+    },
+    {
+      "team": "A. Madrid",
+      "total": 638,
+      "wins": 427,
+      "draws": 139,
+      "losses": 72,
+      "win_rate": 0.6692789968652038,
+      "avg_odd": 1.5175827814569536
+    },
+    {
+      "team": "Girona",
+      "total": 633,
+      "wins": 398,
+      "draws": 115,
+      "losses": 120,
+      "win_rate": 0.6287519747235387,
+      "avg_odd": 1.573551401869159
+    },
+    {
+      "team": "Bilbao",
+      "total": 640,
+      "wins": 374,
+      "draws": 163,
+      "losses": 103,
+      "win_rate": 0.584375,
+      "avg_odd": 1.6939228295819935
+    },
+    {
+      "team": "Villareal",
+      "total": 636,
+      "wins": 337,
+      "draws": 163,
+      "losses": 136,
+      "win_rate": 0.529874213836478,
+      "avg_odd": 1.8817868338557993
+    },
+    {
+      "team": "Betis",
+      "total": 636,
+      "wins": 337,
+      "draws": 184,
+      "losses": 115,
+      "win_rate": 0.529874213836478,
+      "avg_odd": 1.9974213836477985
+    },
+    {
+      "team": "R. Sociedad",
+      "total": 638,
+      "wins": 309,
+      "draws": 180,
+      "losses": 149,
+      "win_rate": 0.4843260188087774,
+      "avg_odd": 2.0360509554140127
+    },
+    {
+      "team": "Sevilla",
+      "total": 629,
+      "wins": 292,
+      "draws": 147,
+      "losses": 190,
+      "win_rate": 0.4642289348171701,
+      "avg_odd": 2.5447333333333333
+    },
+    {
+      "team": "Alav\u00e9s",
+      "total": 638,
+      "wins": 290,
+      "draws": 197,
+      "losses": 151,
+      "win_rate": 0.45454545454545453,
+      "avg_odd": 2.3645768025078366
+    },
+    {
+      "team": "Valencia",
+      "total": 633,
+      "wins": 282,
+      "draws": 206,
+      "losses": 145,
+      "win_rate": 0.44549763033175355,
+      "avg_odd": 2.122290322580645
+    },
+    {
+      "team": "Vigo",
+      "total": 642,
+      "wins": 285,
+      "draws": 194,
+      "losses": 163,
+      "win_rate": 0.4439252336448598,
+      "avg_odd": 2.4514417177914107
+    },
+    {
+      "team": "R. Vallecano",
+      "total": 636,
+      "wins": 258,
+      "draws": 201,
+      "losses": 177,
+      "win_rate": 0.4056603773584906,
+      "avg_odd": 2.6671698113207545
+    },
+    {
+      "team": "Mallorca",
+      "total": 630,
+      "wins": 250,
+      "draws": 243,
+      "losses": 137,
+      "win_rate": 0.3968253968253968,
+      "avg_odd": 2.297231270358306
+    },
+    {
+      "team": "Osasuna",
+      "total": 633,
+      "wins": 247,
+      "draws": 196,
+      "losses": 190,
+      "win_rate": 0.3902053712480253,
+      "avg_odd": 2.740095238095238
+    },
+    {
+      "team": "Elche",
+      "total": 640,
+      "wins": 248,
+      "draws": 208,
+      "losses": 184,
+      "win_rate": 0.3875,
+      "avg_odd": 2.670857142857143
+    },
+    {
+      "team": "Getafe",
+      "total": 633,
+      "wins": 229,
+      "draws": 212,
+      "losses": 192,
+      "win_rate": 0.3617693522906793,
+      "avg_odd": 2.6573333333333333
+    },
+    {
+      "team": "Levante",
+      "total": 631,
+      "wins": 223,
+      "draws": 213,
+      "losses": 195,
+      "win_rate": 0.35340729001584786,
+      "avg_odd": 2.953291536050157
+    },
+    {
+      "team": "Espanyol",
+      "total": 635,
+      "wins": 220,
+      "draws": 193,
+      "losses": 222,
+      "win_rate": 0.3464566929133858,
+      "avg_odd": 2.9181907894736843
+    },
+    {
+      "team": "Real Oviedo",
+      "total": 638,
+      "wins": 172,
+      "draws": 230,
+      "losses": 236,
+      "win_rate": 0.26959247648902823,
+      "avg_odd": 3.9804761904761903
+    }
+  ]
+}

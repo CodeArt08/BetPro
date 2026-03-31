@@ -1,0 +1,25 @@
+{
+  "weights": {
+    "confidence_threshold": 0.72,
+    "conformal_max_width": 0.35,
+    "entropy_weight": 1.0,
+    "ml_weight": 1.0,
+    "engine_signal_weight": 1.0,
+    "draw_cycle_weight": 1.0,
+    "fourier_weight": 1.0,
+    "fourier_amplitude_threshold": 0.3,
+    "odds_movement_weight": 1.0,
+    "bocpd_sensitivity": 0.1,
+    "post_changepoint_discount": 0.25,
+    "max_streak_multiplier": 1.0
+  },
+  "recovery_mode": false,
+  "recovery_wins_count": 0,
+  "consecutive_errors": 0,
+  "max_streaks_hist": {
+    "V": 5,
+    "N": 4,
+    "D": 4
+  },
+  "error_log": []
+}

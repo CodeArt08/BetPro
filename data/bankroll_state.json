@@ -1,0 +1,174 @@
+{
+  "current_bankroll": 5631.27,
+  "initial_bankroll": 1000.0,
+  "history": [
+    {
+      "type": "bet_placed",
+      "amount": 32.19,
+      "bankroll_after": 967.81,
+      "timestamp": "2026-03-17T06:14:03.626601"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 31.15,
+      "bankroll_after": 936.66,
+      "timestamp": "2026-03-17T06:14:33.954725"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 30.15,
+      "bankroll_after": 906.51,
+      "timestamp": "2026-03-17T06:15:04.990766"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 29.18,
+      "bankroll_after": 877.33,
+      "timestamp": "2026-03-17T06:15:35.628730"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 28.24,
+      "bankroll_after": 849.09,
+      "timestamp": "2026-03-17T06:16:05.976788"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 27.33,
+      "bankroll_after": 821.76,
+      "timestamp": "2026-03-17T06:16:36.281130"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 26.45,
+      "bankroll_after": 795.31,
+      "timestamp": "2026-03-17T06:17:06.620233"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 28.03,
+      "bankroll_after": 767.28,
+      "timestamp": "2026-03-17T07:05:50.778903"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 27.04,
+      "bankroll_after": 740.24,
+      "timestamp": "2026-03-17T07:06:26.478549"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 26.09,
+      "bankroll_after": 714.15,
+      "timestamp": "2026-03-17T07:08:05.770811"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 25.17,
+      "bankroll_after": 688.98,
+      "timestamp": "2026-03-17T07:08:41.220311"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 24.28,
+      "bankroll_after": 664.7,
+      "timestamp": "2026-03-17T07:09:54.531775"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 23.43,
+      "bankroll_after": 641.2700000000001,
+      "timestamp": "2026-03-17T07:10:29.684089"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 22.6,
+      "bankroll_after": 618.6700000000001,
+      "timestamp": "2026-03-17T07:11:04.866314"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 21.8,
+      "bankroll_after": 596.8700000000001,
+      "timestamp": "2026-03-17T07:11:54.910388"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 21.04,
+      "bankroll_after": 575.8300000000002,
+      "timestamp": "2026-03-17T07:12:30.775096"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 20.29,
+      "bankroll_after": 555.5400000000002,
+      "timestamp": "2026-03-17T07:13:24.868010"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 19.58,
+      "bankroll_after": 535.9600000000002,
+      "timestamp": "2026-03-17T07:14:00.008579"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 18.89,
+      "bankroll_after": 517.0700000000002,
+      "timestamp": "2026-03-17T07:14:37.532235"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 18.22,
+      "bankroll_after": 498.85000000000014,
+      "timestamp": "2026-03-17T07:15:44.608630"
+    },
+    {
+      "type": "bet_placed",
+      "amount": 17.58,
+      "bankroll_after": 481.27000000000015,
+      "timestamp": "2026-03-17T07:16:19.951149"
+    },
+    {
+      "type": "bet_settled",
+      "profit_loss": 1200.0,
+      "bankroll_after": 1681.2700000000002,
+      "timestamp": "2026-03-18T14:59:02.591423"
+    },
+    {
+      "type": "bet_settled",
+      "profit_loss": 1050.0,
+      "bankroll_after": 2731.2700000000004,
+      "timestamp": "2026-03-18T15:02:58.358442"
+    },
+    {
+      "type": "bet_settled",
+      "profit_loss": -1000.0,
+      "bankroll_after": 1731.2700000000004,
+      "timestamp": "2026-03-18T16:24:16.007233"
+    },
+    {
+      "type": "bet_settled",
+      "profit_loss": -1000.0,
+      "bankroll_after": 731.2700000000004,
+      "timestamp": "2026-03-18T16:24:18.439561"
+    },
+    {
+      "type": "bet_settled",
+      "profit_loss": 1810.0,
+      "bankroll_after": 2541.2700000000004,
+      "timestamp": "2026-03-18T16:24:20.989552"
+    },
+    {
+      "type": "bet_settled",
+      "profit_loss": 2550.0,
+      "bankroll_after": 5091.27,
+      "timestamp": "2026-03-18T16:24:23.291784"
+    },
+    {
+      "type": "bet_settled",
+      "profit_loss": 540.0,
+      "bankroll_after": 5631.27,
+      "timestamp": "2026-03-18T16:24:25.641801"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "cycle": {
+    "V": {
+      "rate_10": 0.4,
+      "overdue_score": 0.2,
+      "overdue": false,
+      "saturated": false
+    },
+    "N": {
+      "rate_10": 0.35,
+      "overdue_score": 0.6,
+      "overdue": true,
+      "saturated": false
+    },
+    "D": {
+      "rate_10": 0.25,
+      "overdue_score": 0.1,
+      "overdue": false,
+      "saturated": false
+    }
+  },
+  "streak": {
+    "V": {
+      "current_streak": 2,
+      "correction_prob": 0.3,
+      "correction_imminent": false
+    },
+    "N": {
+      "current_streak": 1,
+      "correction_prob": 0.4,
+      "correction_imminent": false
+    },
+    "D": {
+      "current_streak": 0,
+      "correction_prob": 0.2,
+      "correction_imminent": false
+    }
+  },
+  "fourier": {
+    "cycle_detected": true,
+    "cycle_length": 8,
+    "phase": 3,
+    "dominant_type": "N",
+    "dominant_amplitude": 0.15
+  },
+  "autocorr": {
+    "lag1": {
+      "autocorr": 0.08,
+      "pattern": "positive"
+    },
+    "lag2": {
+      "autocorr": -0.03,
+      "pattern": "negative"
+    },
+    "lag3": {
+      "autocorr": 0.05,
+      "pattern": "positive"
+    }
+  },
+  "runs_test": {
+    "z_score": -1.2,
+    "p_value": 0.23,
+    "random": true,
+    "exploitable": false,
+    "reduce_stakes": false
+  },
+  "changepoint": {
+    "recent": null,
+    "in_last_10": false
+  },
+  "symbolic": {
+    "pattern": "VNVN",
+    "lift": 1.8,
+    "next_type": "N",
+    "next_conf": 0.65,
+    "exploitable": true
+  },
+  "shin": {
+    "additive": {
+      "V": 0.38,
+      "N": 0.32,
+      "D": 0.3
+    },
+    "power": {
+      "V": 0.4,
+      "N": 0.3,
+      "D": 0.3
+    },
+    "shin": {
+      "V": 0.39,
+      "N": 0.31,
+      "D": 0.3
+    },
+    "bookmaker_margin": 0.05,
+    "anomaly": false,
+    "divergence_score": 0.02
+  },
+  "draw_detection": {
+    "draw_signal_strength": 0.65,
+    "draw_factors": {
+      "recent_draw_rate_10": 0.35,
+      "recent_draws_count": 3,
+      "draw_odds_value": 0.04,
+      "alternating_pattern": true,
+      "compression_detected": true,
+      "low_score_indicators": 2
+    },
+    "draw_recommendation": "HIGH"
+  },
+  "goal_expectation": {
+    "low_goal_expectation": 0.58,
+    "odds_spread": 0.12,
+    "draw_favorability": 0.36,
+    "draw_likely": true
+  },
+  "regime": "STABLE",
+  "engine_score_V": 0.08,
+  "engine_score_N": 0.22,
+  "engine_score_D": 0.05
+}

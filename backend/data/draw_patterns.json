@@ -1,0 +1,68 @@
+{
+  "tight_match_low_draw_odds": {
+    "condition": "ABS(odd_home - odd_away) < 0.5 AND odd_draw < 3.2",
+    "draw_rate": 0.31822863027806386,
+    "description": "Match serr\u00e9 + cote nul basse"
+  },
+  "moderate_favorite": {
+    "condition": "odd_home BETWEEN 1.8 AND 2.3",
+    "draw_rate": 0.31822863027806386,
+    "description": "Favori mod\u00e9r\u00e9"
+  },
+  "high_draw_team": {
+    "teams": [
+      "Mallorca",
+      "Real Oviedo",
+      "Levante",
+      "Getafe",
+      "Valencia"
+    ],
+    "draw_rate": 0.38571428571428573,
+    "description": "\u00c9quipe avec fort taux de nuls"
+  },
+  "draw_odds_ranges": {
+    "D2.8-3.0": 0.3297029702970297,
+    "D3.0-3.2": 0.3079777365491651,
+    "D3.2-3.4": 0.2948207171314741,
+    "D3.4-3.6": 0.28735632183908044,
+    "D<2.8": 0.3758782201405152,
+    "D>3.6": 0.2164790174002047
+  },
+  "home_odds_ranges": {
+    "H1.5-1.8": {
+      "total": 897,
+      "draws": 220,
+      "rate": 0.24526198439241917
+    },
+    "H1.8-2.0": {
+      "total": 801,
+      "draws": 251,
+      "rate": 0.31335830212234705
+    },
+    "H2.0-2.3": {
+      "total": 1119,
+      "draws": 361,
+      "rate": 0.322609472743521
+    },
+    "H2.3-2.7": {
+      "total": 753,
+      "draws": 254,
+      "rate": 0.33731739707835323
+    },
+    "H2.7-3.2": {
+      "total": 538,
+      "draws": 179,
+      "rate": 0.33271375464684017
+    },
+    "H<1.5": {
+      "total": 1161,
+      "draws": 237,
+      "rate": 0.2041343669250646
+    },
+    "H>3.2": {
+      "total": 902,
+      "draws": 279,
+      "rate": 0.3093126385809313
+    }
+  }
+}

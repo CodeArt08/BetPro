@@ -1,0 +1,13 @@
+{
+  "bankroll": 100000,
+  "initial_bankroll": 100000,
+  "peak_bankroll": 109690.0,
+  "total_profit": 9690.0,
+  "total_stake": 15000.0,
+  "wins": 11,
+  "losses": 4,
+  "wins_streak": 3,
+  "is_stopped": false,
+  "current_drawdown": 0.0,
+  "pred_variance_history": []
+}

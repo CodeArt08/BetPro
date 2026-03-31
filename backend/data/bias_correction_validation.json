@@ -1,0 +1,18 @@
+{
+  "original_accuracy": 45.434636118598384,
+  "corrected_accuracy": 42.09905660377358,
+  "improvement": -3.3355795148248006,
+  "surprises_avoided": 334,
+  "draws_gained": 443,
+  "v_losses_avoided": 334,
+  "distribution_original": {
+    "V": 4044,
+    "N": 631,
+    "D": 1261
+  },
+  "distribution_corrected": {
+    "V": 2906,
+    "N": 2052,
+    "D": 978
+  }
+}

@@ -1,0 +1,947 @@
+{
+  "cycle": {
+    "V": {
+      "rate_10": 0.5,
+      "baseline": 0.4,
+      "overdue_score": 0,
+      "overdue": false,
+      "very_overdue": false,
+      "saturated": false
+    },
+    "N": {
+      "rate_10": 0.3,
+      "baseline": 0.3,
+      "overdue_score": 0,
+      "overdue": false,
+      "very_overdue": false,
+      "saturated": false
+    },
+    "D": {
+      "rate_10": 0.2,
+      "baseline": 0.3,
+      "overdue_score": 0.33333333333333326,
+      "overdue": false,
+      "very_overdue": false,
+      "saturated": false
+    }
+  },
+  "streak": {
+    "V": {
+      "current_streak": 2,
+      "max_historical": 12,
+      "correction_prob": 0.16666666666666666,
+      "correction_imminent": false
+    },
+    "N": {
+      "current_streak": 0,
+      "max_historical": 8,
+      "correction_prob": 0.0,
+      "correction_imminent": false
+    },
+    "D": {
+      "current_streak": 0,
+      "max_historical": 6,
+      "correction_prob": 0.0,
+      "correction_imminent": false
+    }
+  },
+  "fourier": {
+    "cycle_detected": true,
+    "cycle_length": 4,
+    "phase": 0,
+    "dominant_freq": 0.23,
+    "dominant_amplitude": 19.509418036887094,
+    "dominant_type": "V"
+  },
+  "autocorr": {
+    "lag1": {
+      "autocorr": -0.0515187851576305,
+      "pattern": "random"
+    },
+    "lag2": {
+      "autocorr": -0.07145287926369014,
+      "pattern": "random"
+    },
+    "lag3": {
+      "autocorr": -0.07457639515163383,
+      "pattern": "random"
+    },
+    "lag4": {
+      "autocorr": 0.1576193590582081,
+      "pattern": "continuation"
+    },
+    "lag5": {
+      "autocorr": 0.13122560903684508,
+      "pattern": "random"
+    }
+  },
+  "runs_test": {
+    "z_score": 0.3000064448908142,
+    "p_value": 0.7641722396211903,
+    "runs": 20,
+    "expected_runs": 19.24,
+    "random": true,
+    "exploitable": false,
+    "reduce_stakes": true
+  },
+  "changepoint": {
+    "recent": null,
+    "last_5": null,
+    "in_last_10": false
+  },
+  "symbolic": {
+    "top_patterns": [
+      {
+        "pattern": "VVVVV",
+        "length": 5,
+        "count": 342,
+        "observed_freq": 0.022477817942819587,
+        "expected_freq": 0.010240000000000004,
+        "lift": 2.1950994084784745,
+        "next_type": "V",
+        "next_conf": 0.4327485380116959,
+        "next_probs": {
+          "V": 0.4327485380116959,
+          "N": 0.31871345029239767,
+          "D": 0.24853801169590642
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVVVN",
+        "length": 5,
+        "count": 255,
+        "observed_freq": 0.01675977653631285,
+        "expected_freq": 0.007680000000000002,
+        "lift": 2.182262569832402,
+        "next_type": "V",
+        "next_conf": 0.47843137254901963,
+        "next_probs": {
+          "V": 0.47843137254901963,
+          "N": 0.27058823529411763,
+          "D": 0.25098039215686274
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "NVVVV",
+        "length": 5,
+        "count": 242,
+        "observed_freq": 0.015905356556030235,
+        "expected_freq": 0.007680000000000001,
+        "lift": 2.071009968233103,
+        "next_type": "V",
+        "next_conf": 0.4669421487603306,
+        "next_probs": {
+          "V": 0.4669421487603306,
+          "N": 0.30991735537190085,
+          "D": 0.2231404958677686
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVVV",
+        "length": 4,
+        "count": 784,
+        "observed_freq": 0.05152471083070452,
+        "expected_freq": 0.025600000000000008,
+        "lift": 2.012684016824395,
+        "next_type": "V",
+        "next_conf": 0.4362244897959184,
+        "next_probs": {
+          "V": 0.4362244897959184,
+          "N": 0.3252551020408163,
+          "D": 0.2385204081632653
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVVNV",
+        "length": 5,
+        "count": 233,
+        "observed_freq": 0.015313835031219192,
+        "expected_freq": 0.007680000000000003,
+        "lift": 1.993988936356665,
+        "next_type": "V",
+        "next_conf": 0.44635193133047213,
+        "next_probs": {
+          "V": 0.44635193133047213,
+          "N": 0.2875536480686695,
+          "D": 0.26609442060085836
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVNVV",
+        "length": 5,
+        "count": 225,
+        "observed_freq": 0.014788038120276044,
+        "expected_freq": 0.007680000000000003,
+        "lift": 1.9255257969109425,
+        "next_type": "V",
+        "next_conf": 0.4533333333333333,
+        "next_probs": {
+          "V": 0.4533333333333333,
+          "N": 0.29333333333333333,
+          "D": 0.25333333333333335
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VNVVV",
+        "length": 5,
+        "count": 217,
+        "observed_freq": 0.014262241209332895,
+        "expected_freq": 0.007680000000000001,
+        "lift": 1.8570626574652205,
+        "next_type": "V",
+        "next_conf": 0.5207373271889401,
+        "next_probs": {
+          "V": 0.5207373271889401,
+          "N": 0.2672811059907834,
+          "D": 0.2119815668202765
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VNVNV",
+        "length": 5,
+        "count": 153,
+        "observed_freq": 0.01005586592178771,
+        "expected_freq": 0.00576,
+        "lift": 1.7458100558659218,
+        "next_type": "V",
+        "next_conf": 0.46405228758169936,
+        "next_probs": {
+          "V": 0.46405228758169936,
+          "N": 0.28104575163398693,
+          "D": 0.2549019607843137
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVNVN",
+        "length": 5,
+        "count": 151,
+        "observed_freq": 0.009924416694051922,
+        "expected_freq": 0.005760000000000001,
+        "lift": 1.722989009384014,
+        "next_type": "V",
+        "next_conf": 0.5231788079470199,
+        "next_probs": {
+          "V": 0.5231788079470199,
+          "N": 0.2251655629139073,
+          "D": 0.25165562913907286
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "DVVVV",
+        "length": 5,
+        "count": 200,
+        "observed_freq": 0.013144922773578704,
+        "expected_freq": 0.007680000000000001,
+        "lift": 1.7115784861430603,
+        "next_type": "V",
+        "next_conf": 0.405,
+        "next_probs": {
+          "V": 0.405,
+          "N": 0.355,
+          "D": 0.24
+        },
+        "exploitable": true
+      }
+    ],
+    "exploitable": [
+      {
+        "pattern": "VVVVV",
+        "length": 5,
+        "count": 342,
+        "observed_freq": 0.022477817942819587,
+        "expected_freq": 0.010240000000000004,
+        "lift": 2.1950994084784745,
+        "next_type": "V",
+        "next_conf": 0.4327485380116959,
+        "next_probs": {
+          "V": 0.4327485380116959,
+          "N": 0.31871345029239767,
+          "D": 0.24853801169590642
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVVVN",
+        "length": 5,
+        "count": 255,
+        "observed_freq": 0.01675977653631285,
+        "expected_freq": 0.007680000000000002,
+        "lift": 2.182262569832402,
+        "next_type": "V",
+        "next_conf": 0.47843137254901963,
+        "next_probs": {
+          "V": 0.47843137254901963,
+          "N": 0.27058823529411763,
+          "D": 0.25098039215686274
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "NVVVV",
+        "length": 5,
+        "count": 242,
+        "observed_freq": 0.015905356556030235,
+        "expected_freq": 0.007680000000000001,
+        "lift": 2.071009968233103,
+        "next_type": "V",
+        "next_conf": 0.4669421487603306,
+        "next_probs": {
+          "V": 0.4669421487603306,
+          "N": 0.30991735537190085,
+          "D": 0.2231404958677686
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVVV",
+        "length": 4,
+        "count": 784,
+        "observed_freq": 0.05152471083070452,
+        "expected_freq": 0.025600000000000008,
+        "lift": 2.012684016824395,
+        "next_type": "V",
+        "next_conf": 0.4362244897959184,
+        "next_probs": {
+          "V": 0.4362244897959184,
+          "N": 0.3252551020408163,
+          "D": 0.2385204081632653
+        },
+        "exploitable": true
+      },
+      {
+        "pattern": "VVVNV",
+        "length": 5,
+        "count": 233,
+        "observed_freq": 0.015313835031219192,
+        "expected_freq": 0.007680000000000003,
+        "lift": 1.993988936356665,
+        "next_type": "V",
+        "next_conf": 0.44635193133047213,
+        "next_probs": {
+          "V": 0.44635193133047213,
+          "N": 0.2875536480686695,
+          "D": 0.26609442060085836
+        },
+        "exploitable": true
+      }
+    ],
+    "best_pattern": {
+      "pattern": "VVVVV",
+      "length": 5,
+      "count": 342,
+      "observed_freq": 0.022477817942819587,
+      "expected_freq": 0.010240000000000004,
+      "lift": 2.1950994084784745,
+      "next_type": "V",
+      "next_conf": 0.4327485380116959,
+      "next_probs": {
+        "V": 0.4327485380116959,
+        "N": 0.31871345029239767,
+        "D": 0.24853801169590642
+      },
+      "exploitable": true
+    }
+  },
+  "shin": {
+    "additive": {
+      "V": 0.3372698796277523,
+      "N": 0.35106158474264176,
+      "D": 0.31166853562960606
+    },
+    "power": {
+      "V": 0.33746426300835236,
+      "N": 0.35203970922957767,
+      "D": 0.3104959698453911
+    },
+    "shin": {
+      "V": 0.3372698796277523,
+      "N": 0.35106158474264176,
+      "D": 0.31166853562960606
+    },
+    "bookmaker_margin": 0.05892307233909788,
+    "divergence_score": 9.163320438151751e-05,
+    "anomaly": false,
+    "raw_implied": {
+      "V": 0.35714285714285715,
+      "N": 0.3717472118959108,
+      "D": 0.33003300330033003
+    }
+  },
+  "draw_detection": {
+    "draw_signal_strength": 0.43600000000000005,
+    "draw_factors": {
+      "recent_draw_rate_10": 0.3,
+      "recent_draws_count": 4,
+      "draw_odds_value": 0.019999999999999962,
+      "alternating_pattern": false,
+      "compression_detected": false,
+      "low_score_indicators": 1
+    },
+    "draw_recommendation": "MEDIUM"
+  },
+  "goal_expectation": {
+    "low_goal_expectation": 0.6,
+    "odds_spread": 0.10000000000000003,
+    "draw_favorability": 0.4285714285714286,
+    "draw_likely": true
+  },
+  "regime": "STABLE",
+  "engine_score_V": 0.07804629350219712,
+  "engine_score_N": 0.09207424979430683,
+  "engine_score_D": 0.07829384940933806,
+  "distribution": {
+    "dist_10": {
+      "observed": {
+        "V": 0.5,
+        "N": 0.3,
+        "D": 0.2
+      },
+      "deviation": {
+        "V": 0.09999999999999998,
+        "N": 0.0,
+        "D": -0.09999999999999998
+      },
+      "kl": 0.030478754035472025,
+      "signal": {
+        "V": 0.09999999999999998,
+        "D": -0.09999999999999998
+      }
+    },
+    "dist_20": {
+      "observed": {
+        "V": 0.5,
+        "N": 0.3,
+        "D": 0.2
+      },
+      "deviation": {
+        "V": 0.09999999999999998,
+        "N": 0.0,
+        "D": -0.09999999999999998
+      },
+      "kl": 0.030478754035472025,
+      "signal": {
+        "V": 0.09999999999999998,
+        "D": -0.09999999999999998
+      }
+    },
+    "dist_50": {
+      "observed": {
+        "V": 0.48,
+        "N": 0.24,
+        "D": 0.28
+      },
+      "deviation": {
+        "V": 0.07999999999999996,
+        "N": -0.06,
+        "D": -0.019999999999999962
+      },
+      "kl": 0.014641890929341511,
+      "signal": null
+    },
+    "dist_100": {
+      "observed": {
+        "V": 0.48,
+        "N": 0.26,
+        "D": 0.26
+      },
+      "deviation": {
+        "V": 0.07999999999999996,
+        "N": -0.03999999999999998,
+        "D": -0.03999999999999998
+      },
+      "kl": 0.013101908567948087,
+      "signal": null
+    }
+  },
+  "dist_50": {
+    "observed": {
+      "V": 0.48,
+      "N": 0.24,
+      "D": 0.28
+    },
+    "deviation": {
+      "V": 0.07999999999999996,
+      "N": -0.06,
+      "D": -0.019999999999999962
+    },
+    "kl": 0.014641890929341511,
+    "signal": null
+  },
+  "line_bias": {
+    "1": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1967,
+      "rates": {
+        "V": 0.48195221148957806,
+        "N": 0.29435688866293847,
+        "D": 0.22369089984748347
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": 0.005250467160665726,
+        "N": 0.022623110123242005,
+        "D": -0.038798561355534014
+      },
+      "strong_bias": null
+    },
+    "2": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1491,
+      "rates": {
+        "V": 0.48088531187122735,
+        "N": 0.289738430583501,
+        "D": 0.22937625754527163
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": 0.0030251400137152173,
+        "N": 0.006578158749346101,
+        "D": -0.014368537594851958
+      },
+      "strong_bias": null
+    },
+    "3": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1484,
+      "rates": {
+        "V": 0.4723719676549865,
+        "N": 0.3032345013477089,
+        "D": 0.22439353099730458
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": -0.014731896983843442,
+        "N": 0.053464759304297955,
+        "D": -0.03577935014709887
+      },
+      "strong_bias": null
+    },
+    "4": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1488,
+      "rates": {
+        "V": 0.4825268817204301,
+        "N": 0.290994623655914,
+        "D": 0.2264784946236559
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": 0.006449107823070597,
+        "N": 0.010942289897970974,
+        "D": -0.026820246140021736
+      },
+      "strong_bias": null
+    },
+    "5": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1488,
+      "rates": {
+        "V": 0.47043010752688175,
+        "N": 0.2721774193548387,
+        "D": 0.25739247311827956
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": -0.018782206857730594,
+        "N": -0.054430421688964926,
+        "D": 0.10601734637499013
+      },
+      "strong_bias": null
+    },
+    "6": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1496,
+      "rates": {
+        "V": 0.49064171122994654,
+        "N": 0.27540106951871657,
+        "D": 0.2339572192513369
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": 0.023374927356418534,
+        "N": -0.04323116227462544,
+        "D": 0.005315888482593893
+      },
+      "strong_bias": null
+    },
+    "7": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1486,
+      "rates": {
+        "V": 0.4784656796769852,
+        "N": 0.27860026917900405,
+        "D": 0.24293405114401076
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": -0.002021701427475022,
+        "N": -0.032116846175658215,
+        "D": 0.04388940101971877
+      },
+      "strong_bias": null
+    },
+    "8": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1489,
+      "rates": {
+        "V": 0.5104096709200806,
+        "N": 0.2713230355943586,
+        "D": 0.2182672934855608
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": 0.06460671391032294,
+        "N": -0.057398630051098416,
+        "D": -0.06210383770462019
+      },
+      "strong_bias": null
+    },
+    "9": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1475,
+      "rates": {
+        "V": 0.46508474576271186,
+        "N": 0.29627118644067796,
+        "D": 0.23864406779661018
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": -0.02993150191743536,
+        "N": 0.0292735580066465,
+        "D": 0.02545531108537749
+      },
+      "strong_bias": null
+    },
+    "10": {
+      "enough_data": true,
+      "reliable": true,
+      "n": 1356,
+      "rates": {
+        "V": 0.45870206489675514,
+        "N": 0.306047197640118,
+        "D": 0.23525073746312683
+      },
+      "global_rates": {
+        "V": 0.4794349540078844,
+        "N": 0.2878449408672799,
+        "D": 0.23272010512483574
+      },
+      "bias": {
+        "V": -0.043244425417484876,
+        "N": 0.06323632688486552,
+        "D": 0.010874145733707074
+      },
+      "strong_bias": null
+    }
+  },
+  "line_position": 1,
+  "score_distribution": {
+    "kl_divergence": 0.07465477499792487,
+    "kl_level": "MOYEN",
+    "biased_scores": [
+      {
+        "score": "6-0",
+        "observed": 0.0023653088042049934,
+        "expected": 0.0007255187386968301,
+        "bias": 2.2601622508793344
+      },
+      {
+        "score": "5-0",
+        "observed": 0.009526938239159002,
+        "expected": 0.00322452772754147,
+        "bias": 1.954522039859395
+      },
+      {
+        "score": "4-0",
+        "observed": 0.021747700394218136,
+        "expected": 0.011942695287190616,
+        "bias": 0.8210043772567889
+      },
+      {
+        "score": "3-3",
+        "observed": 0.002102496714848883,
+        "expected": 0.007849741939383066,
+        "bias": -0.7321572185321898
+      },
+      {
+        "score": "0-0",
+        "observed": 0.14487516425755584,
+        "expected": 0.08629358649937051,
+        "bias": 0.6788636344209968
+      },
+      {
+        "score": "1-5",
+        "observed": 0.0005913272010512483,
+        "expected": 0.0015634876949223889,
+        "bias": -0.6217896674392428
+      },
+      {
+        "score": "2-4",
+        "observed": 0.0018396846254927727,
+        "expected": 0.004797064518511873,
+        "bias": -0.6164978356256354
+      },
+      {
+        "score": "0-5",
+        "observed": 0.0018396846254927727,
+        "expected": 0.0011581390332758435,
+        "bias": 0.5884833967551802
+      },
+      {
+        "score": "3-0",
+        "observed": 0.055256241787122205,
+        "expected": 0.03538576381389812,
+        "bias": 0.561538761116688
+      },
+      {
+        "score": "4-2",
+        "observed": 0.003416557161629435,
+        "expected": 0.007225330648750324,
+        "bias": -0.527141756174113
+      }
+    ],
+    "total_matches": 15220
+  },
+  "calibration_edge": {},
+  "odds_movement": {},
+  "time_bias_all": {
+    "matin": {
+      "n": 0,
+      "bias": {},
+      "signal": null
+    },
+    "apres_midi": {
+      "n": 480,
+      "rates": {
+        "V": 0.45416666666666666,
+        "N": 0.3416666666666667,
+        "D": 0.20416666666666666
+      },
+      "bias": {
+        "V": 0.0,
+        "N": 0.0,
+        "D": 0.0
+      },
+      "signal": null
+    },
+    "soir": {
+      "n": 0,
+      "bias": {},
+      "signal": null
+    },
+    "nuit": {
+      "n": 0,
+      "bias": {},
+      "signal": null
+    }
+  },
+  "time_bias_current": {
+    "n": 480,
+    "rates": {
+      "V": 0.45416666666666666,
+      "N": 0.3416666666666667,
+      "D": 0.20416666666666666
+    },
+    "bias": {
+      "V": 0.0,
+      "N": 0.0,
+      "D": 0.0
+    },
+    "signal": null
+  },
+  "cross_match_corr": {
+    "correlation": -0.00276336957437282,
+    "dependent": false,
+    "n_pairs": 45
+  },
+  "elo": {
+    "V": 0.4,
+    "N": 0.3,
+    "D": 0.3
+  },
+  "h2h": {
+    "V": 0.4,
+    "N": 0.3,
+    "D": 0.3
+  },
+  "conformal_quantile": 0.2,
+  "last_result": "V",
+  "ucb_weights": {
+    "lstm": 0.09090909090909091,
+    "xgb": 0.09090909090909091,
+    "lgb": 0.09090909090909091,
+    "rf": 0.09090909090909091,
+    "cat": 0.09090909090909091,
+    "mlp": 0.09090909090909091,
+    "gbm": 0.09090909090909091,
+    "mc": 0.09090909090909091,
+    "poisson": 0.09090909090909091,
+    "elo": 0.09090909090909091,
+    "markov": 0.09090909090909091
+  },
+  "error_system": {
+    "recovery_mode": false,
+    "recovery_wins_needed": 2,
+    "recovery_wins_count": 0,
+    "consecutive_errors": 0,
+    "active_lessons": [],
+    "weight_ml": 1.0,
+    "weight_engine": 1.0,
+    "weight_draw_cycle": 1.0,
+    "weight_fourier": 1.0,
+    "weight_movement": 1.0,
+    "thresholds": {
+      "ev_minimum": 0.1,
+      "confidence_min": 0.72,
+      "model_agreement_min": 0.6,
+      "entropy_max": 0.95,
+      "conformal_max": 0.35
+    }
+  },
+  "active_lessons": [],
+  "bankroll": {
+    "bankroll": 100000,
+    "initial_bankroll": 100000,
+    "peak_bankroll": 109690.0,
+    "total_profit": 9690.0,
+    "total_stake": 15000.0,
+    "season_profit": 0.0,
+    "season_stake": 0.0,
+    "roi": 0.646,
+    "roi_pct": 64.60000000000001,
+    "season_roi_pct": 0.0,
+    "win_rate": 0.7333333333333333,
+    "wins": 11,
+    "losses": 4,
+    "current_drawdown": 0.0,
+    "drawdown_pct": 0.0,
+    "max_drawdown": 0.0,
+    "wins_streak": 3,
+    "anti_martingale_mult": 1.0,
+    "is_stopped": false,
+    "variance_factor": 1.0,
+    "history": [],
+    "chart_data": [],
+    "season_id": null,
+    "season_start_bankroll": 100000,
+    "matchday_history": {}
+  },
+  "rl_state": [
+    0.0,
+    0.0,
+    0.33333333333333326,
+    -0.0515187851576305,
+    1.0,
+    0.0,
+    0.7641722396211903,
+    0.33,
+    0.33,
+    0.0
+  ],
+  "rl_recommendation": {
+    "recommended_action": "BET_HOME",
+    "q_values": {
+      "BET_HOME": 0.0,
+      "BET_DRAW": 0.0,
+      "BET_AWAY": 0.0,
+      "NO_BET": 0.0
+    },
+    "q_best": 0.0,
+    "q_no_bet": 0.0,
+    "recommend_bet": false
+  },
+  "lstm_probs": {
+    "V": 0.4981380340710167,
+    "N": 0.276218571306174,
+    "D": 0.22564339462280927
+  },
+  "prepared_at": "2026-03-30T14:29:30.442541",
+  "match_info": {
+    "matchday": 27,
+    "home_team": "Elche",
+    "away_team": "Bilbao",
+    "odd_home": 2.8,
+    "odd_draw": 2.69,
+    "odd_away": 3.03,
+    "line_position": 1
+  },
+  "away_detection": {
+    "away_signal_strength": 0.462,
+    "away_factors": {
+      "recent_away_rate_10": 0.2,
+      "recent_away_wins_count": 2,
+      "away_odds_value": 0.02999999999999997,
+      "underdog_situation": false,
+      "sequence_pattern": false
+    },
+    "away_recommendation": "MEDIUM"
+  },
+  "lambda_h": 1.35,
+  "lambda_a": 1.1,
+  "lambda_confidence": 0.0,
+  "lambda_detail": {
+    "home_attack": 1.0,
+    "away_defense": 0.9375000000000001,
+    "away_attack": 1.076086956521739,
+    "home_defense": 1.0
+  },
+  "anomaly": {
+    "score": 0.0,
+    "signals": [],
+    "confidence_adjuster": 1.0
+  }
+}

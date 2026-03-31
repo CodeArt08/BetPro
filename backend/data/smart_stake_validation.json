@@ -1,0 +1,19 @@
+{
+  "original": {
+    "bets": 5936,
+    "wins": 2697,
+    "profit": -1691.1,
+    "roi": -2.848888140161725
+  },
+  "smart": {
+    "bets": 1660,
+    "wins": 792,
+    "profit": 482.84999999999997,
+    "roi": 3.915423289004216,
+    "filtered": 4276
+  },
+  "improvement": {
+    "profit_diff": 2173.95,
+    "bets_avoided": 4276
+  }
+}

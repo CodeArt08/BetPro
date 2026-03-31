@@ -1,0 +1,20 @@
+{
+  "current_weights": {
+    "ml_ensemble": 0.3,
+    "monte_carlo": 0.2,
+    "poisson": 0.15,
+    "elo": 0.12,
+    "h2h": 0.18,
+    "realtime": 0.05
+  },
+  "base_weights": {
+    "ml_ensemble": 0.3,
+    "monte_carlo": 0.2,
+    "poisson": 0.15,
+    "elo": 0.12,
+    "h2h": 0.18,
+    "realtime": 0.05
+  },
+  "last_update": "2026-03-25T13:40:52.111946",
+  "performance_history": {}
+}

@@ -1,0 +1,139 @@
+{
+  "bankroll": 109690.0,
+  "initial_bankroll": 100000,
+  "peak_bankroll": 109690.0,
+  "total_profit": 9690.0,
+  "total_stake": 15000.0,
+  "wins": 11,
+  "losses": 4,
+  "wins_streak": 0,
+  "current_drawdown": 0.0,
+  "max_drawdown": 0.0,
+  "current_season_id": 89,
+  "season_start_bankroll": 100000,
+  "matchday_history": {},
+  "stakes_history": [
+    {
+      "stake": 1000.0,
+      "won": false,
+      "odds": 4.77,
+      "bankroll_after": 99000.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": false,
+      "odds": 1.24,
+      "bankroll_after": 98000.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 3.15,
+      "bankroll_after": 100150.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": false,
+      "odds": 2.74,
+      "bankroll_after": 99150.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 4.27,
+      "bankroll_after": 102420.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 2.59,
+      "bankroll_after": 104010.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": false,
+      "odds": 2.58,
+      "bankroll_after": 103010.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 1.74,
+      "bankroll_after": 103750.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 1.68,
+      "bankroll_after": 104430.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 1.36,
+      "bankroll_after": 104790.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 1.29,
+      "bankroll_after": 105080.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 2.61,
+      "bankroll_after": 106690.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 1.55,
+      "bankroll_after": 107240.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 2.74,
+      "bankroll_after": 108980.0,
+      "matchday": 0,
+      "season_id": 89
+    },
+    {
+      "stake": 1000.0,
+      "won": true,
+      "odds": 1.71,
+      "bankroll_after": 109690.0,
+      "matchday": 0,
+      "season_id": 89
+    }
+  ],
+  "season_total_stake": 15000.0,
+  "season_total_profit": 9690.0
+}

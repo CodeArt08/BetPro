@@ -1,0 +1,222 @@
+{
+  "learned_patterns": {
+    "ranking_differential": {
+      "diff_0_5": {
+        "home_win_rate": 0.48523421588594706,
+        "draw_rate": 0.2981160896130346,
+        "away_win_rate": 0.21664969450101834,
+        "total_matches": 3928,
+        "confidence": 19.64
+      },
+      "diff_5_10": {
+        "home_win_rate": 0.4645714285714286,
+        "draw_rate": 0.27314285714285713,
+        "away_win_rate": 0.2622857142857143,
+        "total_matches": 1750,
+        "confidence": 8.75
+      },
+      "diff_10_20": {
+        "home_win_rate": 0.435,
+        "draw_rate": 0.2,
+        "away_win_rate": 0.365,
+        "total_matches": 200,
+        "confidence": 1.0
+      }
+    },
+    "form_momentum": {
+      "momentum_-0.8": {
+        "home_win_rate": 0.3987473903966597,
+        "draw_rate": 0.31941544885177453,
+        "away_win_rate": 0.2818371607515658,
+        "total_matches": 479,
+        "confidence": 2.395
+      },
+      "momentum_-0.4": {
+        "home_win_rate": 0.42058623040218135,
+        "draw_rate": 0.2985685071574642,
+        "away_win_rate": 0.28084526244035446,
+        "total_matches": 1467,
+        "confidence": 7.335
+      },
+      "momentum_0.0": {
+        "home_win_rate": 0.4888027562446167,
+        "draw_rate": 0.2842377260981912,
+        "away_win_rate": 0.22695951765719208,
+        "total_matches": 2322,
+        "confidence": 11.61
+      },
+      "momentum_0.4": {
+        "home_win_rate": 0.5447298494242693,
+        "draw_rate": 0.26926483613817537,
+        "away_win_rate": 0.18600531443755536,
+        "total_matches": 1129,
+        "confidence": 5.645
+      },
+      "momentum_0.8": {
+        "home_win_rate": 0.5933609958506224,
+        "draw_rate": 0.24896265560165975,
+        "away_win_rate": 0.15767634854771784,
+        "total_matches": 241,
+        "confidence": 1.205
+      }
+    },
+    "home_away_differential": {
+      "strong_vs_strong": {
+        "home_win_rate": 0.5043695380774033,
+        "draw_rate": 0.2696629213483146,
+        "away_win_rate": 0.22596754057428214,
+        "total_matches": 1602,
+        "confidence": 8.01
+      },
+      "strong_vs_medium": {
+        "home_win_rate": 0.676923076923077,
+        "draw_rate": 0.22714932126696832,
+        "away_win_rate": 0.09592760180995476,
+        "total_matches": 1105,
+        "confidence": 5.525
+      },
+      "medium_vs_strong": {
+        "home_win_rate": 0.27629382303839733,
+        "draw_rate": 0.332220367278798,
+        "away_win_rate": 0.39148580968280466,
+        "total_matches": 1198,
+        "confidence": 5.99
+      },
+      "medium_vs_medium": {
+        "home_win_rate": 0.4740896358543417,
+        "draw_rate": 0.30952380952380953,
+        "away_win_rate": 0.21638655462184875,
+        "total_matches": 1428,
+        "confidence": 7.14
+      },
+      "medium_vs_weak": {
+        "home_win_rate": 0.6785714285714286,
+        "draw_rate": 0.22857142857142856,
+        "away_win_rate": 0.09285714285714286,
+        "total_matches": 140,
+        "confidence": 0.7
+      },
+      "weak_vs_medium": {
+        "home_win_rate": 0.22448979591836735,
+        "draw_rate": 0.35374149659863946,
+        "away_win_rate": 0.4217687074829932,
+        "total_matches": 147,
+        "confidence": 0.735
+      },
+      "weak_vs_weak": {
+        "home_win_rate": 0.44583333333333336,
+        "draw_rate": 0.32916666666666666,
+        "away_win_rate": 0.225,
+        "total_matches": 240,
+        "confidence": 1.2
+      }
+    },
+    "season_stage": {
+      "early": {
+        "home_win_rate": 0.47686832740213525,
+        "draw_rate": 0.27656329435688864,
+        "away_win_rate": 0.2465683782409761,
+        "total_matches": 1967,
+        "confidence": 9.835
+      },
+      "mid": {
+        "home_win_rate": 0.47768043387567793,
+        "draw_rate": 0.29328327075511057,
+        "away_win_rate": 0.22903629536921152,
+        "total_matches": 2397,
+        "confidence": 11.985
+      },
+      "late": {
+        "home_win_rate": 0.4775429326287979,
+        "draw_rate": 0.2919418758256275,
+        "away_win_rate": 0.23051519154557465,
+        "total_matches": 1514,
+        "confidence": 7.57
+      }
+    },
+    "derby_rivalry": {
+      "derby": {
+        "home_win_rate": 0.4576271186440678,
+        "draw_rate": 0.2711864406779661,
+        "away_win_rate": 0.2711864406779661,
+        "total_matches": 59,
+        "confidence": 0.295
+      }
+    },
+    "scoring_streaks": {
+      "scoring_vs_scoring": {
+        "home_win_rate": 0.4992700729927007,
+        "draw_rate": 0.25985401459854013,
+        "away_win_rate": 0.24087591240875914,
+        "total_matches": 685,
+        "confidence": 3.425
+      },
+      "scoring_vs_not_scoring": {
+        "home_win_rate": 0.5674740484429066,
+        "draw_rate": 0.28027681660899656,
+        "away_win_rate": 0.1522491349480969,
+        "total_matches": 289,
+        "confidence": 1.445
+      },
+      "scoring_vs_mixed": {
+        "home_win_rate": 0.524983344437042,
+        "draw_rate": 0.2731512325116589,
+        "away_win_rate": 0.20186542305129915,
+        "total_matches": 1501,
+        "confidence": 7.505
+      },
+      "not_scoring_vs_scoring": {
+        "home_win_rate": 0.35365853658536583,
+        "draw_rate": 0.3780487804878049,
+        "away_win_rate": 0.2682926829268293,
+        "total_matches": 82,
+        "confidence": 0.41
+      },
+      "not_scoring_vs_not_scoring": {
+        "home_win_rate": 0.43902439024390244,
+        "draw_rate": 0.24390243902439024,
+        "away_win_rate": 0.3170731707317073,
+        "total_matches": 41,
+        "confidence": 0.205
+      },
+      "not_scoring_vs_mixed": {
+        "home_win_rate": 0.4523809523809524,
+        "draw_rate": 0.2976190476190476,
+        "away_win_rate": 0.25,
+        "total_matches": 84,
+        "confidence": 0.42
+      },
+      "mixed_vs_scoring": {
+        "home_win_rate": 0.39020771513353114,
+        "draw_rate": 0.30712166172106825,
+        "away_win_rate": 0.3026706231454006,
+        "total_matches": 674,
+        "confidence": 3.37
+      },
+      "mixed_vs_not_scoring": {
+        "home_win_rate": 0.4896265560165975,
+        "draw_rate": 0.34024896265560167,
+        "away_win_rate": 0.17012448132780084,
+        "total_matches": 241,
+        "confidence": 1.205
+      },
+      "mixed_vs_mixed": {
+        "home_win_rate": 0.46018172100481025,
+        "draw_rate": 0.28915018706574025,
+        "away_win_rate": 0.2506680919294495,
+        "total_matches": 1871,
+        "confidence": 9.355
+      }
+    }
+  },
+  "pattern_performance": {},
+  "pattern_types": {
+    "ranking_differential": 0.25,
+    "form_momentum": 0.2,
+    "home_away_differential": 0.15,
+    "season_stage": 0.1,
+    "derby_rivalry": 0.15,
+    "scoring_streaks": 0.15
+  },
+  "last_update": "2026-03-25T13:42:48.904940"
+}

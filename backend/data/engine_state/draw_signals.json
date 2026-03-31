@@ -1,0 +1,12 @@
+{
+  "draw_signal_strength": 0.43600000000000005,
+  "draw_factors": {
+    "recent_draw_rate_10": 0.3,
+    "recent_draws_count": 4,
+    "draw_odds_value": 0.019999999999999962,
+    "alternating_pattern": false,
+    "compression_detected": false,
+    "low_score_indicators": 1
+  },
+  "draw_recommendation": "MEDIUM"
+}

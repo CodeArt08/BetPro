@@ -1,0 +1,109 @@
+{
+  "high_risk_situations": [
+    {
+      "condition": "odd_home >= 2.0 AND odd_draw < 3.0",
+      "error_rate": null,
+      "description": "Favori faible + cote nul basse"
+    },
+    {
+      "condition": "odd_home BETWEEN 1.8 AND 2.3 AND odd_draw < 3.2",
+      "error_rate": null,
+      "description": "Favori mod\u00e9r\u00e9 + cote nul mod\u00e9r\u00e9e"
+    },
+    {
+      "condition": "ABS(odd_home - odd_away) < 0.5 AND odd_home > 1.8",
+      "error_rate": null,
+      "description": "Match serr\u00e9 (pas de vrai favori)"
+    }
+  ],
+  "error_rates_by_odd_h": {
+    "H1.5-1.8": {
+      "total": 693,
+      "correct": 439,
+      "to_n": 160,
+      "to_d": 94,
+      "error_rate": 0.3665223665223665
+    },
+    "H1.8-2.0": {
+      "total": 553,
+      "correct": 267,
+      "to_n": 182,
+      "to_d": 104,
+      "error_rate": 0.5171790235081374
+    },
+    "H2.0-2.3": {
+      "total": 764,
+      "correct": 325,
+      "to_n": 249,
+      "to_d": 190,
+      "error_rate": 0.574607329842932
+    },
+    "H2.3-2.7": {
+      "total": 437,
+      "correct": 168,
+      "to_n": 143,
+      "to_d": 126,
+      "error_rate": 0.6155606407322655
+    },
+    "H<1.5": {
+      "total": 1009,
+      "correct": 713,
+      "to_n": 199,
+      "to_d": 97,
+      "error_rate": 0.2933597621407334
+    },
+    "H>2.7": {
+      "total": 588,
+      "correct": 161,
+      "to_n": 189,
+      "to_d": 238,
+      "error_rate": 0.7261904761904762
+    }
+  },
+  "teams_to_avoid": [
+    {
+      "team": "Alav\u00e9s",
+      "error_rate": 0.5541666666666667
+    },
+    {
+      "team": "Elche",
+      "error_rate": 0.5990338164251208
+    },
+    {
+      "team": "Espanyol",
+      "error_rate": 0.6043956043956044
+    },
+    {
+      "team": "Getafe",
+      "error_rate": 0.6178861788617886
+    },
+    {
+      "team": "Levante",
+      "error_rate": 0.6343612334801763
+    },
+    {
+      "team": "Mallorca",
+      "error_rate": 0.5823293172690763
+    },
+    {
+      "team": "Osasuna",
+      "error_rate": 0.59375
+    },
+    {
+      "team": "R. Vallecano",
+      "error_rate": 0.5975609756097561
+    },
+    {
+      "team": "Real Oviedo",
+      "error_rate": 0.5714285714285714
+    },
+    {
+      "team": "Valencia",
+      "error_rate": 0.5530973451327433
+    },
+    {
+      "team": "Vigo",
+      "error_rate": 0.579185520361991
+    }
+  ]
+}

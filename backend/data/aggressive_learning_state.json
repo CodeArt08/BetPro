@@ -1,0 +1,33 @@
+{
+  "outcome_weights": {
+    "V": 1.0,
+    "N": 0.9,
+    "D": 0.9
+  },
+  "context_corrections": {
+    "outcome_multipliers": {
+      "V": 1.0,
+      "N": 0.9,
+      "D": 0.9
+    },
+    "confidence_adjustments": {},
+    "odds_range_adjustments": {
+      "H<1.5": {
+        "boost_outcome": "V",
+        "boost_factor": 1.1
+      },
+      "H1.5-2.0": {
+        "boost_outcome": "V",
+        "boost_factor": 1.1
+      }
+    },
+    "model_weight_adjustments": {}
+  },
+  "model_weights": {
+    "engine": 0.25,
+    "ml": 0.45,
+    "odds": 0.22,
+    "h2h": 0.08
+  },
+  "last_updated": "2026-03-24 19:45:20.584034"
+}
